@@ -10,7 +10,7 @@ Before I dove into learning software development full-time, I was already workin
 
 I also founded PerlWrite, a content creation organization, where I collaborated with startups to realize their content strategy in the form of website copy, eBooks, blog posts, email campaigns and more.  
 
-# Outside the Coding
+# Beyond the Coding
 When I'm not hunched in front of my computer coding (though that is most of my life these days), I like to read, practice yoga, hang out with my friends, and get off the beaten path.
 
 I'm also a passionate traveler and believer in remote work. Currently, I'm based in Medellin, Colombia where I enjoy the year-round perfect weather, practicing Spanish, and plugging away at my keyboad at the city's many cafes which serve the world's best coffee (a strong statement that I stand firmly by).
