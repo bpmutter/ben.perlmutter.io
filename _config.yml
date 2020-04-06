@@ -30,7 +30,7 @@ twitter_username: bpmutter
 github_username:  bpmutter
 
 # Build settings
-theme: minima
+theme: jekyll-material-theme
 plugins:
   - jekyll-feed
 
