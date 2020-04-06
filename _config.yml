@@ -21,11 +21,11 @@
 title: Ben Perlmutter
 email: ben@perlmutter.io
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Learning to code, one commit at a time. I'm a software developer currently studying
+  at the App Academy online bootcamp. I love web development and work every day to become a 
+  better developer
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bpmutter.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bpmutter
 github_username:  bpmutter
 
