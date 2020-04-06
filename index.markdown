@@ -4,8 +4,6 @@
 
 layout: home
 ---
-Test Content
+![Ben in the Tienda](assets/ben-tienda-circle.png)
 
-### Test HEading
-
-*Let's see what happens*
+Hi, I'm Ben Perlmutter, a software developer who knows how to do some stuff.
