@@ -13,7 +13,7 @@ layout: home
         }
         #ben-in-tienda{
             width:350px; 
-            margin-bottom: 1.25rem;
+            margin-bottom: 2rem;
             border-radius: 50%;
             box-shadow: 0 0 15px rgba(0,0,0,0.5);
         }
