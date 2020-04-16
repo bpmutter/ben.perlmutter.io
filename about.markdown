@@ -15,5 +15,5 @@ When I'm not hunched in front of my computer coding (though that is most of my l
 
 I'm also a passionate traveler and believer in remote work. Currently, I'm based in Medellin, Colombia where I enjoy the year-round perfect weather, practicing Spanish, and plugging away at my keyboad at the city's many cafes which serve the world's best coffee (a strong statement that I stand firmly by).
 
-You can learn more about me round the web:
-[Github](https://github.com/bpmutter) / [LinkedIn](https://www.linkedin.com/in/ben-perlmutter-a410228a/) / [Twitter](https://twitter.com/bpmutter)
+## Connect with Me
+[Mail](mailto:ben@perlmutter.io) / [Github](https://github.com/bpmutter) / [LinkedIn](https://www.linkedin.com/in/ben-perlmutter-a410228a/) / [Twitter](https://twitter.com/bpmutter)
