@@ -21,7 +21,7 @@
 title: Ben Perlmutter
 email: ben@perlmutter.io
 description: >- # this means to ignore newlines until "baseurl:"
-  Programmer in development. Working hard to become the best programmer I can be. 
+  Programmer in development. 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bpmutter

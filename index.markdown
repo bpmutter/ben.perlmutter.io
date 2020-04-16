@@ -5,9 +5,25 @@
 layout: home
 ---
 <!-- ![Ben in the Tienda](assets/ben-tienda-circle.png) -->
-<div style="width:100%; display:=block ">
-    <img src="assets/ben-tienda-circle.png" style="width:350px; margin: 0 auto border:3px solid black; display:inline-block">
+<head>
+    <style>
+        .img-wrap{
+            display: flex;
+            justify-content: center;
+        }
+        #ben-in-tienda{
+            width:350px; 
+            margin-bottom: 1.25rem;
+            border-radius: 50%;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<div class="img-wrap">
+<img src="assets/ben-tienda-circle.png" id="ben-in-tienda" alt="picture of ben perlmutter">
 </div>
+
+
 
 
 Hi, I'm Ben Perlmutter, a software developer currently studying to get a whole lot better in the [App Academy](https://appacademy.io/) online bootcamp.
