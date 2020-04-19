@@ -4,29 +4,35 @@
 
 @import "minima";
 
+.h1-bitmoji{
+    height: 45px;
+    top: -5px;
+    padding-right: 10px;
+    position: relative;
+}
 .img-wrap-center {
         display: flex;
         justify-content: center;
     }
 
-    .bitmoji-header {
-        max-width: 300px;
-        padding-bottom: 2rem;
-    }
+.bitmoji-header {
+    max-width: 300px;
+    padding-bottom: 2rem;
+}
 
-    #ben-in-tienda {
-        max-width: 350px;
-        margin-bottom: 2rem;
-        border-radius: 50%;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    }
+#ben-in-tienda {
+    max-width: 350px;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
 
-    #avocado-head {
-        max-width: 425px;
-        margin: 2rem 0;
-        border-radius: 2rem;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-    }
+#avocado-head {
+    max-width: 425px;
+    margin: 2rem 0;
+    border-radius: 2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
 
     @media screen and (max-width:400px){
         #avocado-head, #ben-in-tienda, #bitmoji-header{

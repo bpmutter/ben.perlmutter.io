@@ -195,6 +195,8 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
+.h1-bitmoji { height: 45px; top: -5px; padding-right: 10px; position: relative; }
+
 .img-wrap-center { display: flex; justify-content: center; }
 
 .bitmoji-header { max-width: 300px; padding-bottom: 2rem; }

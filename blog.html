@@ -2,10 +2,9 @@
 layout: default
 title: Blog
 ---
-<h1>Latest Posts</h1>
-
-<img src="assets/img/avocado-head.png" id="avocado-head" alt="the avocados are bigger in colombia">
-
+<span class="h1-wrap" style="display: block;">
+    <h1 style="display: inline-block; padding-top: 10px;">Latest Posts</h1>
+</span>
 
 <ul>
     {% for post in site.posts %}
@@ -15,3 +14,5 @@ title: Blog
     </li>
     {% endfor %}
 </ul>
+
+<script type="module" src="../assets/js/index.js"> </script>
