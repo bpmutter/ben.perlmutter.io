@@ -4,7 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-      <img src="assets/img/01-bitmoji-neutral.png" style="height: 54px; position: relative; bottom: 7px">
+      <img src="/assets/img/01-bitmoji-neutral.png" style="height: 54px; position: relative; bottom: 7px">
       {{ site.title | escape }}</a>
 
     {%- if page_paths -%}

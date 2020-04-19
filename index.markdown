@@ -6,7 +6,7 @@ layout: home
 ---
 <!-- ![Ben in the Tienda](assets/ben-tienda-circle.png) -->
 <div class="img-wrap-center">
-<img src="./assets/img/28-bitmoji-internet-love.png" class="bitmoji-header">
+<img src="/assets/img/28-bitmoji-internet-love.png" class="bitmoji-header">
 </div>
 
 Hi, I'm Ben Perlmutter, a software developer currently studying to get a whole lot better in the [App Academy](https://appacademy.io/) online bootcamp.

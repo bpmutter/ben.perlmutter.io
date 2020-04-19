@@ -4,7 +4,7 @@ title: About
 # permalink: /about/
 ---
 <div class="img-wrap-center">
-<img src="./assets/ben-tienda-circle.png" id="ben-in-tienda" alt="picture of ben perlmutter">
+<img src="/assets/ben-tienda-circle.png" id="ben-in-tienda" alt="picture of ben perlmutter">
 </div>
 
 I'm a software developer currently studying programming at the [App Academy](https://appacademy.io/) online bootcamp. I love programming, creating software, and learning the inner-workings of the internet. Prior to starting App Academy in February 2020, I had been studying programming independly using online resources like [The Odin Project](https://theodinproject.org).
@@ -24,6 +24,6 @@ When I'm not hunched in front of my computer coding (though that is most of my l
 I'm also a passionate traveler and believer in remote work. Currently, I'm based in Medellin, Colombia where I enjoy  avocados the size of my head (see below), the year-round perfect weather, practicing Spanish, and plugging away at my keyboard at the city's many cafes which serve the world's best coffee (a strong statement that I stand firmly by).
 
 <div class="img-wrap-center">
-<img src="./assets/img/avocado-head.png" id="avocado-head" alt="the avocados are bigger in Colombia">
+<img src="/assets/img/avocado-head.png" id="avocado-head" alt="the avocados are bigger in Colombia">
 </div>
 
