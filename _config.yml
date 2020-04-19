@@ -28,8 +28,8 @@ twitter_username: bpmutter
 github_username:  bpmutter
 
 # Build settings
-#theme: minima
-remote_theme: bpmutter/benima
+theme: minima
+#remote_theme: bpmutter/benima
 plugins:
   - jekyll-feed
 
