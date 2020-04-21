@@ -4,6 +4,18 @@
 
 @import "minima";
 
+.homepage-title{
+    text-align: center;
+}
+.homepage-title h1{
+    margin-bottom: 8px;
+}
+.homepage-title .subtitle{
+    font-size: 20px;
+    color: slategray;
+    margin-bottom: 22px;
+}
+
 .h1-bitmoji{
     height: 45px;
     top: -5px;

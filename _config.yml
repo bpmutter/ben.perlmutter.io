@@ -25,16 +25,18 @@ email: ben@perlmutter.io
 description: >- # this means to ignore newlines until "baseurl:"
   Programmer in development. 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://ben.perlmutter.io/ # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bpmutter
 github_username:  bpmutter
 linkedin_username: ben-perlmutter-a410228a
 
 # Build settings
 theme: minima
-#remote_theme: bpmutter/benima
-plugins:
+plugins: 
   - jekyll-feed
+
+#blog stuff
+show_excerpts: true 
 
 # Exclude from processing.
 # The following items will not be processed, by default.

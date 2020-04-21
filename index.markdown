@@ -8,6 +8,11 @@ layout: home
 <div class="img-wrap-center">
 <img src="/assets/img/28-bitmoji-internet-love.png" class="bitmoji-header">
 </div>
+<div class="homepage-title">
+    <h1>Ben Perlmutter</h1>
+    <p class="subtitle">Full-Stack Developer</p>
+</div>
+
 
 Hi, I'm Ben Perlmutter, a software developer currently studying to get a whole lot better in the [App Academy](https://appacademy.io/) online bootcamp.
 
@@ -17,3 +22,8 @@ I'm trying to keep a blog here to document all the stuff I'm learning and how I 
 
 If you want to read some more about me, check out the [about page](/_site/about/index.html). You can also give me a follow on my socio-professional media: [Github](https://github.com/bpmutter) / [LinkedIn](https://www.linkedin.com/in/ben-perlmutter-a410228a/) / [Twitter](https://twitter.com/bpmutter).
 
+<!-- ## Skills
+coming soon....
+
+## Projects
+coming eventually... -->
