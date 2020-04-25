@@ -19,7 +19,7 @@ Read on to learn some more about my experience, and why I believe this was the r
 In late summer 2019, I decided that I wanted to learn "coding," whatever that meant. (I talk more about why I decided to career change into software development in [this blog post](/#)).
 
 didn't really know how i wanted to start
-* did some freecodeacademy 
+* did some [freecodecamp](https://www.freecodecamp.org/)
 * bopped around youtube video
 * found udemy course that did a good job w HTML/CSS til the JS curriculum was pretty weak
 
@@ -51,56 +51,54 @@ results
   * to make sure this wasn't just a reflection of a stalinist-style marketing campaign to purge the interenet of all bad content (not uncommon in the online ed world), i reached out on linkedin to some recent graduates, who all said some variation on, "you'll work your ass off but come out of it a software development"
     * i decided i'll take it
 
-## App Academy Online: So Far, So Good
+## App Academy Online: So Far, So Good (8.5/10)
+* at time of writing i'm 9 weeks into the app academy online bootcamp. i'd say i'm pretty satisfied so far
+* it moves very fast, but explains topics very well and in a logical manner
+  * for example, topics that would take me a full day to half-understand in a day of self study, aA teaches in 2 hours and i fully understand it, and then practice exercises to drill in the concepts
+* the instruction is pretty good
+  * know the material well and are fairly good at conveying it clearly
+  * there are also some really great readings and decent video explanations that we cover before going through anything at a class that help a lot 
+* i like pair programming more than anticipated 
+  * one of the core features of the aA curriculum is its emphasis on pair programming, which is where you are doing all your coding with a partner
+    * one person is the 'navigator', giving direction to what should be written. the other is the 'driver', who is actually implementing the code and providing feedback
+  * before the bootcamp, i'd never pair programmed before and i was uncertain how i'd feel about it
+    * would it be tedious and slow?
+    * what i didn't like the person i was pairing with? 
+  * but now after 2+ months of pair programming, i can definitively say: **i am a fan of pair programming**. 
+    * the social aspect keeps you going w/o distraction longer than you otherwise could
+      * probably biggest factor
+    * you get to learn from other student's and their knowledge, or teach them yours, which i think is one of the best ways to solidify your knowledge.
+    * and working through with someone keeps you sharper, as you have to constantly verbalize what you're doing, you're more likely to catch mistakes you're making or those of your partner 
+* time commitment isn't too excessive
+  * as noted above, i was told by everyone i had talked to that the bootcamp would require really working your ass off. sleepless nights, no weekends, that fun stuff
+    * as someone who very much enjoys his 8 hours of sleep/night and keeping my computer screen as closed as possible during the weekend, i was a little apprehensive about this aspect of the course 
+      * i decided i would be willing to do it, but still sleep and weekends are nice and not something i particularly wanted to give up
+  * luckily for me, these fears have turned out to be overblown. i'd say i work on average 50-60 hours a week. a lot, but not so much that it interferes with sleep or doesn't permit me to relax on the weekends. 
+    * i think this is largely due to curriculum changes made to aA this year that extend the course a month, to 5 months instead of four. so this gives us an extra month to cover the same curriculum, providing some more breathing room. 
+  * i appreciate that the course isn't fully life consuming b.c I like to have a life. and do other things like work on this blog! 
+* negatives
+  * not much of a community, but i guess that's to be expected with online learning
+  * sometimes the projects are lighter or too "hand-holdy" imo, but still learning all the relevant topics
+  * some days where i question if getting my money's worth (20K upfront, 31K with ISA), but then i compare to my self study and think back to how much more i'm learning how much quicker, and begrudgingly admit that it most definitely is
+* TDDE: test drive development education
+  * one aspect that i kinda thought would be awful but have grown to respect if not like is the weekly assessments. every week on monday morning, we have a pass/fail test on the previous week's material. if you don't pass (which is usually 80%, but could theoretically be lower if a lot of people don't reach that bar), you get sent back to the previous cohort, which is a month behind. so every week you risk getting sent back a month. harsh. 
+    * but none of the assessments are hard. it's a test designed for you to pass, or likely even get a 100% if you have absorbed the easier 75% of the previous week's material. so really it's assessing if you've understood (.80*75) like 60% of the previous week, not too bad.
+      * and if you didn't get that much, advancing will generally be hard b.c the material really builds upon itself
+  * it should be noted that while i have done pretty well under the system, passing w relative ease, that can't be said for the majority of my cohort. 
+    * as of writing, at week 9 almost 2/3 of the students that we started out with have failed at least 1 assessment and gotten sent back with a few even dropping out.
+    * i'm still not sure what to make of this fact. i think in part it is probably a failure of aA admissions to ID potential. or maybe it's a failure to attract talent, which means that they let in people they aren't confident will succeed. 
+      * or maybe they just accept people who have the ability, but are too 'green', without a decent foundation in coding, and they get overwhelmed by the machine gun of info thrown at them. 
+  * i still haven't fully formed an opinion on these assessments
+    * it keeps me on my toes and pushes me to study more
+    * and for aA acts as a filter, so they're only graduating student they are confident will succeed
+    * but even if it's working for me, and working for aA, the 2/3 of my starting cohort who have now failed at least 1 assessment only 9 weeks in probably have some other perspectives on the matter. 
+## Conclusion: It has only just begun...
+* as of writing i'm agout 8 months into my journey of learning to code, and just under 4 months of doing it full time, with the last 2 months doing this bootcamp. 
+  * i'm learning everyday and continue to love programming
+* while i can do a hell of a lot more than i could 8 months ago, i still have so much to learn before i feel that i'm comfortably employable, let alone good at this stuff
+  * it really is humbling 
+* 
 
-## Conclusion: XXX 
-
-## If I Were to Do it Again...
-1. Learn the basics and see if becoming a software developer is really something you want to do 
-   1. Finish Odin Project Web Dev 101 before committing yourself to any path (2 months, 10-15 hrs/week)
-      1. if you've done this, you can probably get into any bootcamp you want
-      2. and they usually have quick admissions turn around and are free (another way bootcamps disrupt traditional ed), so you don't have to worry about wasting time or money. plus they usually involve coding exericses where you'll learn a thing or 2 even if it doesn't work out.
-   2. In free time, watch lots of YouTube videos about software development to learn more about the industry and culture
-   3. talk to some real devs! see how they entered the industry, and what their advice to you is
-      1. i was lucky enough to have lots of developer friends to talk to
-      2. but if you don't know any, you can also reach out on linkedin (if you send random ppl flatting msgs on linkedin saying how you are impressed by their experience and want to chat w some questions, you'll get a >50% response rate...if you're going down this path make sure that you have a decently curated profile to leave a good 1st impression)
-      3. i've also head good things about going to meetups. never done it, so can't speak to it personally
-2. start researching and applying to bootcamps (4-6 weeks)
-   1. continue with all the above steps, focus on the front-end JS part of Odin Project
-      1. don't worry about the Ruby stuff for now
-      2. Ruby isn't part of many modern bootcamp curriculums b/c the relative popularity of the language has faded
-      3. JS should be part of any bootcamp, and if it's not, don't do that bootcamp
-   2. but focus more specifically on talking to ppl who have done the various bootcamps you're considering
-   3. research which bootcamps seem right for you
-      1. when looking at any bootcamp, look specifically at:
-         1. google search keywords like "XX bootcamp criticism", "XX bootcamp bad" etc....try to explicitly find the negative stuff people have said 
-         2. check what has been said on reddit about the bootcamp. there is a very active learn to code community in pages like /r/learntocode
-      2. reach out to a cross section of bootcamp students. include in this:
-         1. graduates who are now employed in the type of jobs you want
-         2. students currently in the bootcamp
-         3. graduates who haven't found a job yet...getting a balanced perspective is important
-      3. get in the admissions pipeline. put your name on some form, someone from admissions will probably get in contact to talk with you
-         1. remember that by this point, you'll have a bunch of projects under your belt from TOP web dev 101, so you'll be a pretty compelling candidate
-         2. also admissions for these bootcamps are basically their sales department. given that you're now a well qualified candidate, they want you just as much as you want them! 
-      4. once you've researched bootcamps for a couple of weeks (while you're still coding everyday!!), there's a good chance that you'll have a couple of top choice bootcamps. the top ones for me were: 
-         1. App Academy (what I'm currently doing)
-         2. Hack Reactor (but their online hours would've been inconvenient for me on EST)
-         3. Flatiron School (but they're owned by WeWork, which was at peak implosion when I was applying in Fall 2019, so I decided to avoid just to be safe)
-      5. the admissions process will probably take a couple of weeks. once you get into a good bootcamp, congrats--you're the next step on your way to becoming a developer
-3. bootcamp time (on avg. 3-6 months... but depends on length of your program)
-   1. this one obviously most subjective, b/c depends on your program
-   2. code is love, code is life
-      1. make sure the bootcamp is the number 1 priority in your life as much as you are able to make it so
-      2. it's just a couple of months of commitment. you can tough it up
-      3. and you'll probably enjoy it to a certain extent b/c presumably you like to code, otherwise you wouldn't be here
-   3. but i'll speak to my experience so far in app academy 
-   4. do HW and come as prepared as possible to every lesson
-   5. try to get as much code review from your teachers as possible
-      1. one of the most valuable tools for learning to code is having someone with more experience than you look at it, and you're paying your teachers to be there, so you might as well take advantage of the fact that you have a captive audience their to help you as much as possible
-   6. review on the weekends 
-      1. make sure you have a good grasp on what you just learned the past week, presumably the bootcamp will build on itself, so you need to know that stuff going forward
-          1.  or for the job interview process! 
-   7. rinse and repeat 
 <!-- 
 FOR THE ARTICLE ABOUT WHY I DECIDED TO GET INTO DEVELOPMENT
 I was building an e-commerce startup store with Shopify at the time and was working on rebuilding the website of the e-commerce startup I was working for on Wordpress. I kept encountering barriers with stuff that I wanted to do to the websites, but didn't know how to due to lack of technical ability. I don't like when I can't do things I want to do, so I started with the "coding" to accomplish other goals.  -->
