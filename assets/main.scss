@@ -4,6 +4,28 @@
 
 @import "minima";
 
+.nav-bitmoji{
+    height: 54px; 
+    width: 54px;
+    position: relative; 
+    bottom: 7px;
+}
+// .nav-bitmoji:hover{
+//     display: none;
+// }
+// .nav-bitmoji--hover{
+//     display: none;
+// }
+// .nav-bitmoji--hover:hover{
+//     display: inline;
+//     height: 54px;
+//         width: 54px;
+
+//     position: relative;
+//     bottom: 7px;
+// }
+
+
 .homepage-title{
     text-align: center;
 }
