@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-# permalink: /about/
 ---
 <div class="img-wrap-center">
 <img src="/assets/ben-tienda-circle.png" id="ben-in-tienda" alt="picture of ben perlmutter">

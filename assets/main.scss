@@ -15,7 +15,10 @@
     color: slategray;
     margin-bottom: 22px;
 }
-
+.h1-wrap h1{
+    display: inline-block;
+    padding-top: 1rem;
+}
 .h1-bitmoji{
     height: 45px;
     top: -5px;
@@ -46,13 +49,36 @@
     border-radius: 2rem;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
+// .post h2::before {
+//     display: inline;
+//     position: relative;
+//     top: 5px;
+//     content: url("/assets/img/01-bitmoji-neutral-50px.png");
+// }
 
-    @media screen and (max-width:400px){
-        #avocado-head, #ben-in-tienda, #bitmoji-header{
-            width: 250px;
-            height:250px;
-        }
+.blog-posts{
+    list-style: none;
+}
+.blog-posts__li h2{
+    position: relative;
+    left: -30px;
+}
+.blog-posts__list-icon{
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    bottom: 7px;
+    padding-right: .2rem;
+}
+@media screen and (max-width:400px){
+    #avocado-head, #ben-in-tienda, #bitmoji-header{
+        width: 250px;
+        height:250px;
     }
+    .blog-posts__list-icon{display: none}
+}
+    
+    
 
 
 

@@ -5,13 +5,14 @@ export default function randomBitmoji(){
     const filePath = `/assets/img/random-bitmoji/${randomBitmojiNumber}.png`;
     if(document.querySelector(".h1-bitmoji")){
         document.querySelector(".h1-bitmoji").src = filePath;
-    }else{
-        const img = document.createElement("img");
-        img.classList.add("h1-bitmoji");
-        img.src = filePath;
-        img.addEventListener("click", randomBitmoji);
-        h1Wrap.prepend(img);
     }
+// else{
+//         const img = document.createElement("img");
+//         img.classList.add("h1-bitmoji");
+//         img.src = filePath;
+//         img.addEventListener("click", randomBitmoji);
+//         h1Wrap.prepend(img);
+//     }
 }
 
 
