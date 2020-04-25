@@ -70,6 +70,17 @@
     bottom: 7px;
     padding-right: .2rem;
 }
+
+.bitmoji-divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem 0;
+}
+.bitmoji-divider__bitmoji{
+    padding: 0 .65rem;
+    height: 30px;
+}
 @media screen and (max-width:400px){
     #avocado-head, #ben-in-tienda, #bitmoji-header{
         width: 250px;

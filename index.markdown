@@ -22,6 +22,12 @@ I'm trying to keep a blog here to document all the stuff I'm learning and how I 
 
 If you want to read some more about me, check out the [about page](/_site/about/index.html). You can also give me a follow on my socio-professional media: [Github](https://github.com/bpmutter) / [LinkedIn](https://www.linkedin.com/in/ben-perlmutter-a410228a/) / [Twitter](https://twitter.com/bpmutter).
 
+<div class="bitmoji-divider">
+    <img src="/assets/img/01-bitmoji-neutral.png" class="bitmoji-divider__bitmoji">
+    <img src="/assets/img/01-bitmoji-neutral.png" class="bitmoji-divider__bitmoji">
+    <img src="/assets/img/01-bitmoji-neutral.png" class="bitmoji-divider__bitmoji">
+</div>
+
 <!-- ## Skills
 coming soon....
 
