@@ -24,7 +24,9 @@ layout: default
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
+        <a class="blog-posts__read-more" href="{{post.url}}">Read More...</a>
       </li>
+      <hr class="blog-posts__hr-after">
       {%- endfor -%}
     </ul>
 

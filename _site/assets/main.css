@@ -225,5 +225,9 @@ table td { border: 1px solid #e8e8e8; }
 
 .bitmoji-divider__bitmoji { padding: 0 .65rem; height: 30px; }
 
+.blog-posts__read-more { font-weight: bold; }
+
+.blog-posts__hr-after { margin-top: 1rem; margin-bottom: 2rem; }
+
 @media screen and (max-width: 400px) { #avocado-head, #ben-in-tienda, #bitmoji-header { width: 250px; height: 250px; }
   .blog-posts__list-icon { display: none; } }

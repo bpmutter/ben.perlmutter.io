@@ -12,7 +12,9 @@ title: Blog
        <h2> <img src="/assets/img/01-bitmoji-neutral.png" class="blog-posts__list-icon"><a
                href="{{ post.url }}">{{ post.title }}</a></h2>
         {{ post.excerpt }}
+        <a class="blog-posts__read-more" href="{{post.url}}">Read More...</a>
     </li>
+    <hr class="blog-posts__hr-after">
     {% endfor %}
 </ul>
 
