@@ -7,7 +7,7 @@ categories: blog personal
 
 I can put an exact date on when I decided I wanted to become a software developer. It was the night before my 25th birthday, November 1, 2019. 
  
-I was in Mexico City on vacation. I’d decided to go to CDMX for my birthday because my birthday, November 2, also the Day of the Dead, and that’s always something I’ve wanted to experience. And probably more importantly, I have a deep aversion to all the attention you get on your birthday. I wanted to not just escape that in a foreign country, but have it be overwhelmed by the attention granted to another holiday.
+I was in Mexico City on vacation. I’d decided to go to CDMX for my birthday because my birthday, November 2, is also the Day of the Dead and that’s always something I’ve wanted to experience. And probably more importantly, I have a deep aversion to all the attention you get on your birthday. I wanted to not just escape that in a foreign country, but have it be overwhelmed by the attention granted to another holiday.
  
 Plus, tacos al pastor, tequila, mesoamerican pyramids, mole, and more tacos al pastor. (Side note: I gained at least 5 pounds during my 2 weeks in Mexico.)
  
