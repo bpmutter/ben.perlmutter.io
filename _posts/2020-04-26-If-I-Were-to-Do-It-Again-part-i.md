@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "If I were to do it again, Part I: Learn the basics without spending a dime"
+title:  "If I Were to Do It Again, Part I: Learn the basics without spending a dime"
 date:   2020-04-26 13:15:36 -0500
 categories: blog do-it-again
 ---
