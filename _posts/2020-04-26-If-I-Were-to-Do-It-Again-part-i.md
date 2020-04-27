@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "If I were to do it again, Part I: Learn the basics and don’t spend a dime"
+title:  "If I were to do it again, Part I: Learn the basics without spending a dime"
 date:   2020-04-26 13:15:36 -0500
 categories: blog do-it-again
 ---
@@ -14,12 +14,14 @@ In this post, I wanted to take a moment to reflect on what, if I were to start f
  
 There is of course no right answer here, but if I were to start learning software development again, here is what I would do. 
  
-## Step 1: Learn the basics and don’t spend a dime (2 months, 10-15 hrs/week)
+### Start Slow(ish) and Be Cheap 
 Before you sign up for some bootcamp and cosign away 15% of your income for the next couple of years or quit your job to lock yourself in your parents’ basement for 6 months teaching yourself to code, you should see if you like it and get a lay of the land. 
  
 Life as a developer isn’t for everyone. Sure, everyone can learn to code, but that doesn’t mean it’s something you want to devote yourself to. Coding is interesting, engaging, and a constant challenge, but it totally has it’s down sides that might mean it’s not for you. You are sitting in front of a computer screen all day, often with no company, and you often get stuck digging into problems that make you want to tear your hair out, just to name a few downsides. 
  
 Before you fully commit to the life of code, learn the basics and make sure it’s the right choice for you. Plus, you’ll have a nice foundation for when/if you decide to dive full in.
+
+**I'd estimate that doing everything outlined below will take approximately 2 months if you're studying 15hrs/week.**
  
 ### TOP FTW 
 For anyone looking to learn software development, I highly recommend finishing **[the Odin Project](https://theodinproject.com) (TOP) WEb Development 101**. It’s a free online curriculum that aggregates some of the best free resources on the internet, and pieces them together into a unified curriculum, with some cool projects thrown in. It’s instructions aren’t super in-depth, but gives you just enough structure and guidance to push you along. Plus, this builds independence and self-teaching, necessary traits for any developer.
@@ -62,9 +64,9 @@ I've also heard good things about going to coding meetups. Check Facebook and Me
  
 ### Step 1 Wrap Up
 Alright that was a lot of words, but really it’s just 3 simple steps:
-**The Odin Project Web Development 101** to learn programming fundamentals
-**Watch some YouTube videos and read some blog posts** in your free time to learn more about the industry and computer science
-**Get networking** to meet people in the field.
+1. **The Odin Project Web Development 101** to learn programming fundamentals
+2. **Watch some YouTube videos and read some blog posts** in your free time to learn more about the industry and computer science
+3. **Get networking** to meet people in the field.
  
 I’d estimate doing all this will take approximately 15 hrs/week for two months. And once you’re done with this, you’ll have a solid understanding of programming fundamentals, have a couple of decent projects under your belt, and know a lot more about the programming landscape. 
  
