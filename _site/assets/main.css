@@ -209,6 +209,10 @@ table td { border: 1px solid #e8e8e8; }
 
 .img-wrap-center { display: flex; justify-content: center; }
 
+.technologies__container { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly; }
+
+.technologies__img { width: 80px; padding: 1rem; }
+
 .bitmoji-header { max-width: 300px; padding-bottom: 2rem; }
 
 #ben-in-tienda { max-width: 350px; margin-bottom: 2rem; border-radius: 50%; box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); }

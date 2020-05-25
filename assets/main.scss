@@ -51,7 +51,17 @@
 .img-wrap-center {
         display: flex;
         justify-content: center;
-    }
+}
+.technologies__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.technologies__img {
+    width: 80px;
+    padding: 1rem
+}
 
 .bitmoji-header {
     max-width: 300px;
@@ -71,12 +81,6 @@
     border-radius: 2rem;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
-// .post h2::before {
-//     display: inline;
-//     position: relative;
-//     top: 5px;
-//     content: url("/assets/img/01-bitmoji-neutral-50px.png");
-// }
 
 .blog-posts{
     list-style: none;
