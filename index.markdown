@@ -44,7 +44,7 @@ You can also give me a follow on my socio-professional media: [Github](https://g
             <img src="/assets/img/technologies/flask.png" class="technologies__img technologies__flask">
             <img src="/assets/img/technologies/postgres.png" class="technologies__img technologies__postgres">
         <div>
-        <p>I also firmly believe in continuous learning. Check out my roadmap for the languages and technologies that I want to cover next. <a href="#">Read More...</a></p>
+        <p>I also firmly believe in continuous learning. A couple of languages/frameworks/technologies I want to learn are: Ruby/Rails, Vue.js, and Python scraping, data science, and analytics. I'm also planning on writing a blog post about this soon, so stay tuned for that! 🤓</p>
 </div>
 <section class="bitmoji-divider">
     <img src="/assets/img/01-bitmoji-neutral.png" class="bitmoji-divider__bitmoji">
