@@ -1,4 +1,186 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-26T20:27:46-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ben.perlmutter</title><subtitle>Programmer in development. </subtitle><author><name>Ben Perlmutter</name></author><entry><title type="html">If I Were to Do It Again, Part I: Learn the basics without spending a dime</title><link href="http://localhost:4000/blog/do-it-again/2020/04/26/If-I-Were-to-Do-It-Again-part-i.html" rel="alternate" type="text/html" title="If I Were to Do It Again, Part I: Learn the basics without spending a dime" /><published>2020-04-26T13:15:36-05:00</published><updated>2020-04-26T13:15:36-05:00</updated><id>http://localhost:4000/blog/do-it-again/2020/04/26/If-I-Were-to-Do-It-Again-part-i</id><content type="html" xml:base="http://localhost:4000/blog/do-it-again/2020/04/26/If-I-Were-to-Do-It-Again-part-i.html">&lt;p&gt;I am now about 8 months into learning software development, and it’s been 4 months since I started studying full time, and 2 months since I started the App Academy online bootcamp.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-24T23:11:07-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ben.perlmutter</title><subtitle>Programmer in development. </subtitle><author><name>Ben Perlmutter</name></author><entry><title type="html">Tappdin, My First Full-Stack App</title><link href="http://localhost:4000/2020/05/24/tappdin-my-first-full-stack.html" rel="alternate" type="text/html" title="Tappdin, My First Full-Stack App" /><published>2020-05-24T00:00:00-05:00</published><updated>2020-05-24T00:00:00-05:00</updated><id>http://localhost:4000/2020/05/24/tappdin-my-first-full-stack</id><content type="html" xml:base="http://localhost:4000/2020/05/24/tappdin-my-first-full-stack.html">&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: The following document is an adapted from the project’s Github README. The project was made in collaboration with &lt;a href=&quot;https://github.com/JBui923&quot;&gt;Johnny Bui&lt;/a&gt; (front-end lead) and &lt;a href=&quot;https://github.com/giancarlo-sanchez&quot;&gt;Giancarlo Sanchez&lt;/a&gt; (backend lead), and myself (project manager). The code for the project represents a collaborative effort of us three.&lt;/p&gt;
+
+&lt;p&gt;The code and live demo may be found here:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tappdin.herokuapp.com/&quot;&gt;Live version&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bpmutter/tappdin&quot;&gt;Frontend Github repo (with README)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bpmutter/tappdin-backend&quot;&gt;Backend Github repo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One of my responsibilities was creating the README file for the project, and my first foray into writing about my code for a public. It was more fun and less painful than I though it’d be.&lt;/p&gt;
+
+&lt;p&gt;Below is an overview of the project, lightly adapted from the Github project README.&lt;/p&gt;
+
+&lt;h2 id=&quot;tappdin-at-a-glance&quot;&gt;Tappdin At a Glance&lt;/h2&gt;
+&lt;p&gt;Tappdin is a beer tracking app modeled on &lt;a href=&quot;https://untappd.com/&quot;&gt;Untappd&lt;/a&gt;. It allows users to create accounts, post and delete checkins of beers, view the checkins of other users, and discover new beers.&lt;/p&gt;
+
+&lt;p&gt;Tappdin currently possesses a database of 500 beers from almost 20 breweries that users can explore and review, which we call &lt;strong&gt;checkins&lt;/strong&gt; to maintain consistency with the original Untappd app.&lt;/p&gt;
+
+&lt;h2 id=&quot;application-architecture-and-technologies-used&quot;&gt;Application Architecture and Technologies Used&lt;/h2&gt;
+&lt;p&gt;Tappdin was built using separate front and back end servers that communicate via RESTful APIs.&lt;/p&gt;
+
+&lt;p&gt;Both front and backend servers are built using the Express NodeJS framework. We used a PostgreSQL (postgres) database to store all application data.&lt;/p&gt;
+
+&lt;p&gt;The front end uses the &lt;a href=&quot;https://pugjs.org/api/getting-started.html&quot;&gt;Pug&lt;/a&gt; templating engine to render views from the frontend server. We used vanilla Javascript for interactivity and standard CSS  for styling.&lt;/p&gt;
+
+&lt;p&gt;The backend uses a suite of libraries for application security and building its API routes (discussed further in the backend section below). To connect our backend to the  postgres database we implemented the &lt;a href=&quot;https://sequelize.org/&quot;&gt;Sequelize ORM&lt;/a&gt;.  We also seeded the database using beer and brewery information from &lt;a href=&quot;https://brewerydb.com/developers/&quot;&gt;BreweryDB API&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;frontend-overview&quot;&gt;Frontend Overview&lt;/h2&gt;
+&lt;p&gt;As Tappdin, is a quite straightforward CRUD app with simple interactivity, we were able to build out the front end without any AJAX and minimal client-side Javascript.&lt;/p&gt;
+
+&lt;p&gt;We made extensive use of the &lt;strong&gt;Pug templating engine&lt;/strong&gt; to render dynamic content and create reusable HTML components that we were able to deploy across multiple views on the site.&lt;/p&gt;
+
+&lt;h3 id=&quot;dynamic-templating-with-pug&quot;&gt;Dynamic Templating with Pug&lt;/h3&gt;
+&lt;p&gt;For instance, we created a Pug mixin (the Pug equivalent of a JS function) to create relevant checkins across different views. We paired this with a component that took an array of checkin objects to dynamically render the associated  checkins in its context (checkins by user on homepage, checkins about brewery on brewery page, etc.)&lt;/p&gt;
+
+&lt;p&gt;Pug code snippet of checkins mixin:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-pug&quot;&gt;mixin checkin(checkin)
+    .checkin
+        head    
+            link(rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/styles/checkin.css&quot;)
+        img.checkin__profile-picture(src=checkin.User.photo)
+        .checkin__main
+            p #[a(href=`/users/${checkin.User.id}`) #{checkin.User.firstName} #{checkin.User.lastName}] drank #[a(href=`/beers/${checkin.Beer.id}`) #{checkin.Beer.name}] from #[a(href=`/breweries/${checkin.Beer.Brewery.id}`) #{checkin.Beer.Brewery.name}]
+            .checkin__rating
+                p Rating: 
+                    span.checkin__rating-val=checkin.displayRating
+                        //-created from the script
+            if checkin.comment
+                p=checkin.comment
+            else 
+                p No comment
+            div.checkin__other-info
+                span.checkin__date=checkin.createdAt
+                if checkin.isSessionUser 
+                    span.checkin__delete #[a(href=`/checkins/${checkin.id}/delete`) Delete checkin]
+        img.checkin__profile-picture(src=checkin.Beer.Brewery.image)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Pug code snippet of dynamically rendering all the checkins for a particular view:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-pug&quot;&gt;section.recent-activity
+    include checkin
+    head
+        link(rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/styles/recent-activity.css&quot;)
+    h2 Recent Activity
+    div#checkin__container
+        if checkins.length
+            each checkin in checkins
+                +checkin(checkin)
+        else
+            p It looks like there aren't any reviews yet
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/checkin-example.png&quot; alt=&quot;Example beer checkin&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;refactoring-the-way-to-reusable-code&quot;&gt;Refactoring the Way to Reusable Code&lt;/h3&gt;
+&lt;p&gt;The most challenging aspect of the front end of Tappdin was probably the sheer number of different views that we had to create, and how to serve content dynamically into them.&lt;/p&gt;
+
+&lt;p&gt;This required us to get creative in how we created that content, using Pug mixins, various layouts, and a whole lot of CSS code. We also had to figure out how to send the relevant data to the views form the server to make code reusable across different views.&lt;/p&gt;
+
+&lt;p&gt;There was no secret sauce that we used to make the code module and reusable. Our general process was:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;hard coding how we wanted something to look with Pug, CSS, and dummy data provided inline.&lt;/li&gt;
+  &lt;li&gt;Then we would refactor to add dynamic data from the server&lt;/li&gt;
+  &lt;li&gt;Finally, we’d modularize the component to reuse accross other parts of the site.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;backend-overview&quot;&gt;Backend Overview&lt;/h2&gt;
+&lt;p&gt;Our backend was primarily a collection of RESTful APIs that we used to query our database for relevant data on beer, breweries, and app users.&lt;/p&gt;
+
+&lt;p&gt;We made extensive use of the Sequelize ORM to make fairly complex queries of data associated across multiple tables. Once we had the database built and setup in the ORM, these queries were fairly straightforward, if somewhat challenging to execute due to the sometimes obtuse Sequelize syntax.&lt;/p&gt;
+
+&lt;h3 id=&quot;authentication-and-application-security&quot;&gt;Authentication and Application Security&lt;/h3&gt;
+&lt;p&gt;We used a JSON Web Token (JWT) to authorize our users across sessions. We stored the JWT in a cookie in the browser, which we would send along for verification with backend server requests. We used the &lt;a href=&quot;https://www.npmjs.com/package/jsonwebtoken&quot;&gt;jsonwebtoken&lt;/a&gt; node library for this.&lt;/p&gt;
+
+&lt;p&gt;We also used the &lt;a href=&quot;https://www.npmjs.com/package/csurf&quot;&gt;csurf&lt;/a&gt; package on our frontend server to protect against CSURF attacks and the &lt;a href=&quot;https://www.npmjs.com/package/bcrypt&quot;&gt;bcryot&lt;/a&gt; hashing library to protect user passwords.&lt;/p&gt;
+&lt;h3 id=&quot;relational-database-model&quot;&gt;Relational Database Model&lt;/h3&gt;
+&lt;p&gt;One of the larger challenges of the project was to design a relational database schema to associate our data. Before we wrote a single line of code, we designed the database with all the tables we’d need and their relationships to each other.&lt;/p&gt;
+
+&lt;p&gt;We then had to translate that to 0ur Sequelize models where we we created associations between the tables so that we easily query across them (basically the Sequelize version of standard postgres INNER JOIN).&lt;/p&gt;
+
+&lt;p&gt;This was the final database schema: 
+&lt;img src=&quot;/assets/img/database-schema.png&quot; alt=&quot;Tappdin database schema&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes on the database schema&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Foreign keys are denoted by FK&lt;/li&gt;
+  &lt;li&gt;Yellow boxes represent many-to-many join tables&lt;/li&gt;
+  &lt;li&gt;Blue boxes have one-to-many relationships with associated foreign keys&lt;/li&gt;
+  &lt;li&gt;As of writing (5/24/20), Tappdin doesn’t yet have implemented the Liked Brewery and beer List functionality. However, these tables are in the database, and the relations are set up in the Sequelize models. We would like to implement this functionality at a later point.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;seeding-the-database&quot;&gt;Seeding the Database&lt;/h3&gt;
+&lt;p&gt;Seeding the database was probably the most technically intensive part of the entire project. As noted above, we used the BreweryDB API to seed our database with information about beers and breweries.&lt;/p&gt;
+
+&lt;p&gt;While BreweryDB was a great (and free!) resource for generating seed data, the way that the data was structured in BreweryDB was not compatible with our database design.&lt;/p&gt;
+
+&lt;p&gt;BreweryDB used 6-character strings as the primary keys for their breweries, whereas we had to use integers at primary keys (PKs) due to restrictions in the Sequelize ORM only permitting integer PKs.&lt;/p&gt;
+
+&lt;p&gt;Matters were further complicated by the fact that we needed to seed the breweries for the database before we seeded the beer to allow for the foreign keys (FKs) in the Beers table to be dependent on the Breweries table. However, the relationships within BreweryDB API structure required that we query beers before we could access the dependent breweries.&lt;/p&gt;
+
+&lt;p&gt;We therefore had to:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Create a list of all breweries we were to use in our seed data.&lt;/li&gt;
+  &lt;li&gt;Add integer primary keys to each brewery instance&lt;/li&gt;
+  &lt;li&gt;Reassociate these brewery primary keys with their associated beers&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To solve this problem, we first did a pass through all 500 beers we were going to use where we created a &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set&quot;&gt;Javascript Set&lt;/a&gt; to capture only the unique breweries.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Seed Set Code:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;seed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./raw-data&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;breweriesSet&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;seed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweries&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;breweriesSet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We then converted that set into an array, so we could easily create PKs from the position in the array. Our PKs, were just the position+1.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Converting the set into useable array:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;brewerySeed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;seed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweries&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweriesSet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;has&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;brewerySeed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;locations&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;locality&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;locations&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;region&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;website&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;website&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;images&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;images&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;squareLarge&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;createdAt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;updatedAt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;breweriesSet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;delete&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;beer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;breweries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Once we had the brewery data in a Sequelize-compatible format, we reassociated it with the beer table, adding the relevant beer as a FK referenced by it’s ID.&lt;/p&gt;
+
+&lt;p&gt;We then removed and/or renamed keys in the beer and brewery JSON objects to be compatible with the database schema.&lt;/p&gt;
+
+&lt;p&gt;Finally, we wrote the data out into JS files, in which we exported the arrays of beer/brewery POJOs to the Sequelize seed file, from where we added it to the database.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion--next-steps&quot;&gt;Conclusion &amp;amp; Next Steps&lt;/h2&gt;
+&lt;p&gt;This project represented our first full-stack application. It was, to put it modestly, a challenge.  But with that being said, we would also consider it to be a very successful effort—we met our MVP goals and created a full-stack CRUD application that now lives on the internet, and a pretty decent looking one too.&lt;/p&gt;
+
+&lt;p&gt;While the project has been deployed that doesn’t mean we are done with it yet. A couple of features that we haven’t been able to add, but would like to are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Make the whole project responsive&lt;/li&gt;
+  &lt;li&gt;Add functionality for Liked Breweries and Lists of beers (already built into database, as noted above, but not yet implemented in app)&lt;/li&gt;
+  &lt;li&gt;Refine search functionality&lt;/li&gt;
+  &lt;li&gt;Comprehensively review error handling to make sure that we properly handle all&lt;/li&gt;
+  &lt;li&gt;Add view and backend API to render all beers associated with a particular brewery&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks for reading, cheers! 🍻&lt;/p&gt;</content><author><name>Ben Perlmutter</name></author><summary type="html">NOTE: The following document is an adapted from the project’s Github README. The project was made in collaboration with Johnny Bui (front-end lead) and Giancarlo Sanchez (backend lead), and myself (project manager). The code for the project represents a collaborative effort of us three.</summary></entry><entry><title type="html">If I Were to Do It Again, Part I: Learn the basics without spending a dime</title><link href="http://localhost:4000/blog/do-it-again/2020/04/26/If-I-Were-to-Do-It-Again-part-i.html" rel="alternate" type="text/html" title="If I Were to Do It Again, Part I: Learn the basics without spending a dime" /><published>2020-04-26T13:15:36-05:00</published><updated>2020-04-26T13:15:36-05:00</updated><id>http://localhost:4000/blog/do-it-again/2020/04/26/If-I-Were-to-Do-It-Again-part-i</id><content type="html" xml:base="http://localhost:4000/blog/do-it-again/2020/04/26/If-I-Were-to-Do-It-Again-part-i.html">&lt;p&gt;I am now about 8 months into learning software development, and it’s been 4 months since I started studying full time, and 2 months since I started the App Academy online bootcamp.&lt;/p&gt;
 
 &lt;p&gt;The other day, I was thinking upon my journey so far, what I’ve done right, and what I’d do differently.&lt;/p&gt;
 
@@ -73,7 +255,7 @@
 &lt;h4 id=&quot;part-ii-coming-soon&quot;&gt;Part II Coming Soon…&lt;/h4&gt;
 &lt;p&gt;In part II of this &lt;strong&gt;If I Were to Do It Again&lt;/strong&gt; series, I’ll talk about why you should do a bootcamp, and how to choose the right one while still continuing to learn programming.&lt;/p&gt;</content><author><name>Ben Perlmutter</name></author><summary type="html">I am now about 8 months into learning software development, and it’s been 4 months since I started studying full time, and 2 months since I started the App Academy online bootcamp. The other day, I was thinking upon my journey so far, what I’ve done right, and what I’d do differently. Overall, I’m pretty happy with the choices I’ve made and the direction I’ve gone, but there is always room for improvement. In this article I discuss what those steps have been. In this post, I wanted to take a moment to reflect on what, if I were to start from zero, I would do. I hope that this article can serve as guidance to anyone looking to get into the software development field. It can be daunting to start learning programming on your own. What language to start? What courses and resources to use? How much to practice? There is of course no right answer here, but if I were to start learning software development again, here is what I would do. Start Slow(ish) and Be Cheap Before you sign up for some bootcamp and cosign away 15% of your income for the next couple of years or quit your job to lock yourself in your parents’ basement for 6 months teaching yourself to code, you should see if you like it and get a lay of the land. Life as a developer isn’t for everyone. Sure, everyone can learn to code, but that doesn’t mean it’s something you want to devote yourself to. Coding is interesting, engaging, and a constant challenge, but it totally has it’s down sides that might mean it’s not for you. You are sitting in front of a computer screen all day, often with no company, and you often get stuck digging into problems that make you want to tear your hair out, just to name a few downsides. Before you fully commit to the life of code, learn the basics and make sure it’s the right choice for you. Plus, you’ll have a nice foundation for when/if you decide to dive full in.</summary></entry><entry><title type="html">Why I’m Becoming a Software Developer</title><link href="http://localhost:4000/blog/personal/2020/04/25/Why-I'm-Becoming-a-Developer.html" rel="alternate" type="text/html" title="Why I'm Becoming a Software Developer" /><published>2020-04-25T13:15:36-05:00</published><updated>2020-04-25T13:15:36-05:00</updated><id>http://localhost:4000/blog/personal/2020/04/25/Why-I'm-Becoming-a-Developer</id><content type="html" xml:base="http://localhost:4000/blog/personal/2020/04/25/Why-I'm-Becoming-a-Developer.html">&lt;p&gt;I can put an exact date on when I decided I wanted to become a software developer. It was the night before my 25th birthday, November 1, 2019.&lt;/p&gt;
 
-&lt;p&gt;I was in Mexico City on vacation. I’d decided to go to CDMX for my birthday because my birthday, November 2, also the Day of the Dead, and that’s always something I’ve wanted to experience. And probably more importantly, I have a deep aversion to all the attention you get on your birthday. I wanted to not just escape that in a foreign country, but have it be overwhelmed by the attention granted to another holiday.&lt;/p&gt;
+&lt;p&gt;I was in Mexico City on vacation. I’d decided to go to CDMX for my birthday because my birthday, November 2, is also the Day of the Dead and that’s always something I’ve wanted to experience. And probably more importantly, I have a deep aversion to all the attention you get on your birthday. I wanted to not just escape that in a foreign country, but have it be overwhelmed by the attention granted to another holiday.&lt;/p&gt;
 
 &lt;p&gt;Plus, tacos al pastor, tequila, mesoamerican pyramids, mole, and more tacos al pastor. (Side note: I gained at least 5 pounds during my 2 weeks in Mexico.)&lt;/p&gt;
 
@@ -125,4 +307,4 @@
 &lt;p&gt;&lt;em&gt;*Now I don’t think software development is necessarily future-proof indefinitely. Who knows what the economy of 20 year from now…certainly not me. But I am quite confident that being a software developer is a secure job choice for the foreseeable future, say the next 20 years or so.&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion-just-the-beginning&quot;&gt;Conclusion: Just the Beginning&lt;/h2&gt;
-&lt;p&gt;I’m just at the beginning of my journey into the world of software development, but so far I love it, and that’s only increasing. I have a long way to go, and I’m looking forward to every step of it.&lt;/p&gt;</content><author><name>Ben Perlmutter</name></author><summary type="html">I can put an exact date on when I decided I wanted to become a software developer. It was the night before my 25th birthday, November 1, 2019. I was in Mexico City on vacation. I’d decided to go to CDMX for my birthday because my birthday, November 2, also the Day of the Dead, and that’s always something I’ve wanted to experience. And probably more importantly, I have a deep aversion to all the attention you get on your birthday. I wanted to not just escape that in a foreign country, but have it be overwhelmed by the attention granted to another holiday. Plus, tacos al pastor, tequila, mesoamerican pyramids, mole, and more tacos al pastor. (Side note: I gained at least 5 pounds during my 2 weeks in Mexico.) At the time I was working remotely in a marketing and sales position for a Silicon Valley startup from Medellin, Colombia. For a variety of reasons, I felt I was outgrowing the position. I knew that I wanted a way out, regardless of what’d be coming next. Concurrently, I’d started studying a bit of front end development because it was relevant to some projects for the company and a side project e-commerce store I was working on. I liked it. There was a ton to learn, instant gratification when you get something right, and lots of career opportunities when you get good at it. I was apprehensive about taking the leap into an entirely new field. It’d basically be starting from zero in a new career, and that wasn’t a decision I wanted to take lightly, especially because I’d just gotten into the world of tech and marketing less than 2 years previously. But in a hyper-cliched ¼-life crisis move, on the afternoon before my 25th birthday, I decided that I need to make a career change. I think that it was an inevitability, but the birthday provided he catylist that I needed to take the leap. The week I got back from the Mexico, I told my job I was quitting by the end of the year, and I dove deeper into programming. I’d spend the mornings and weekends upping my programming chops with the Odin Project, and figuring out how I wanted to proceed with my studying. (I eventually decided that a bootcamp would be the best route for me, but that’s the subject for a different blog post.) The more I immerse myself in the world of programming, the more I love it, something that continues to this day.</summary></entry></feed>
+&lt;p&gt;I’m just at the beginning of my journey into the world of software development, but so far I love it, and that’s only increasing. I have a long way to go, and I’m looking forward to every step of it.&lt;/p&gt;</content><author><name>Ben Perlmutter</name></author><summary type="html">I can put an exact date on when I decided I wanted to become a software developer. It was the night before my 25th birthday, November 1, 2019. I was in Mexico City on vacation. I’d decided to go to CDMX for my birthday because my birthday, November 2, is also the Day of the Dead and that’s always something I’ve wanted to experience. And probably more importantly, I have a deep aversion to all the attention you get on your birthday. I wanted to not just escape that in a foreign country, but have it be overwhelmed by the attention granted to another holiday. Plus, tacos al pastor, tequila, mesoamerican pyramids, mole, and more tacos al pastor. (Side note: I gained at least 5 pounds during my 2 weeks in Mexico.) At the time I was working remotely in a marketing and sales position for a Silicon Valley startup from Medellin, Colombia. For a variety of reasons, I felt I was outgrowing the position. I knew that I wanted a way out, regardless of what’d be coming next. Concurrently, I’d started studying a bit of front end development because it was relevant to some projects for the company and a side project e-commerce store I was working on. I liked it. There was a ton to learn, instant gratification when you get something right, and lots of career opportunities when you get good at it. I was apprehensive about taking the leap into an entirely new field. It’d basically be starting from zero in a new career, and that wasn’t a decision I wanted to take lightly, especially because I’d just gotten into the world of tech and marketing less than 2 years previously. But in a hyper-cliched ¼-life crisis move, on the afternoon before my 25th birthday, I decided that I need to make a career change. I think that it was an inevitability, but the birthday provided he catylist that I needed to take the leap. The week I got back from the Mexico, I told my job I was quitting by the end of the year, and I dove deeper into programming. I’d spend the mornings and weekends upping my programming chops with the Odin Project, and figuring out how I wanted to proceed with my studying. (I eventually decided that a bootcamp would be the best route for me, but that’s the subject for a different blog post.) The more I immerse myself in the world of programming, the more I love it, something that continues to this day.</summary></entry></feed>
