@@ -23,7 +23,7 @@ Hi, I'm Ben Perlmutter, a full-stack software developer.
 
 Welcome to my website. Here you can find my [blog](/blog.html), [my portfolio](https://github.com/bpmutter/), and some more information [about me](/about.html). You may also notice lots of Bitmojis that do silly things. Click around and try to find all the effects (or just [look at the codebase](https://github.com/bpmutter/ben.perlmutter.io)). 
 
-I also love to write and try to have an entrepreneurial attitude toward life. I previously founded PerlWrite, a content creation business and have managed to hack my way to living in 3 countries in the past 4 years, and traveling to quite a few more. To learn more, check out the [about me page](/about.html).
+I also love to write and try to have an entrepreneurial attitude toward life. I previously founded PerlWrite, a content creation business and have managed to hack my way to living in 3 countries in the past 4 years, traveling to quite a few more. To learn more, check out the [about page](/about.html).
 
 You can also give me a follow on my socio-professional media: [Github](https://github.com/bpmutter) / [LinkedIn](https://www.linkedin.com/in/ben-perlmutter-a410228a/) / [Twitter](https://twitter.com/bpmutter).
 
