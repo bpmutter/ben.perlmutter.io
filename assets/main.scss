@@ -60,7 +60,34 @@
 }
 .technologies__img {
     width: 80px;
-    padding: 1rem
+    padding: 1rem;
+    cursor: pointer;
+}
+.technologies__img:hover{
+    transform: scale(1.25);
+}
+.technologies__img--inactive{
+    opacity: .5;
+}
+
+.technologies__description{
+    display: none;
+    border: 1px solid darkgray;
+    border-radius: 3rem;
+    background-color: whitesmoke;
+    padding: 1rem;
+    margin: 1rem .5rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.technologies__description--active{
+    display: block;
+    width: 100%;
+}
+.technologies__header{
+    font-weight: bold;
+    padding: .5rem 0 0 .5rem;
+    font-size: 1.25em;
 }
 
 .bitmoji-header {
