@@ -217,9 +217,9 @@ table td { border: 1px solid #e8e8e8; }
 
 .technologies__img--inactive { opacity: .5; }
 
-.technologies__description { display: none; border: 1px solid darkgray; border-radius: 3rem; background-color: whitesmoke; padding: 1rem 2rem; margin: 1rem .5rem; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+.technologies__description { display: none; border: 1px solid darkgray; border-radius: 3rem; background-color: whitesmoke; width: 100%; padding: 1rem 2rem; margin: 1rem .5rem; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); box-sizing: border-box; overflow-y: auto; transition: height ease-in 10s; }
 
-.technologies__description--active { display: block; width: 100%; }
+.technologies__description--active { display: block; }
 
 .technologies__header { font-weight: bold; padding: .5rem 0 0 .5rem; font-size: 1.25em; }
 

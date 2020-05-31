@@ -107,7 +107,7 @@ You can also give me a follow on my socio-professional media: [Github](https://g
             <div class="technologies__description" id="python-description">
                 <h4 class="technologies__header">Python</h4>
                 <div class="technologies__description-content">
-                    <p>Python is the Spanish to Javascript's English. It's a failryl straightforward language. And like the Spanish-speaking world with all its diversity, there are near-infinite uses for Python.</p>
+                    <p>Python is the Spanish to Javascript's English. It's a fairly straightforward language. And like the Spanish-speaking world with all its diversity, there are near-infinite uses for Python.</p>
                 </div>
             </div>
             <div class="technologies__description" id="flask-description">
@@ -119,7 +119,7 @@ You can also give me a follow on my socio-professional media: [Github](https://g
             <div class="technologies__description" id="postgres-description">
                 <h4 class="technologies__header">Postgres</h4>
                 <div class="technologies__description-content">
-                    <p>yYour app ain't nuthin if you can't save its data. Cue Postgres. I also have experience using SQL ORMs such as the NodeJS Sequelize library.</p>
+                    <p>Your app ain't nuthin if you can't save its data. Cue Postgres. I also have experience using SQL ORMs such as the NodeJS Sequelize library.</p>
                 </div>
             </div>
         </div>
