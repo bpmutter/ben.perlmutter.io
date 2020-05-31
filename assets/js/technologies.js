@@ -1,4 +1,4 @@
-document.getElementsByClassName("technologies")[0].addEventListener("click",
+document.querySelector(".technologies").addEventListener("click",
     (e)=>{
         if (e.target.classList.contains("technologies__img")){
 
@@ -14,6 +14,6 @@ document.getElementsByClassName("technologies")[0].addEventListener("click",
                 technology.classList.remove("technologies__description--active");
             })
             document.getElementById(`${type}-description`).classList.add("technologies__description--active");
-            
+
         }
     });
