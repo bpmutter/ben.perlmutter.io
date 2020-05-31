@@ -8,7 +8,7 @@ The primary goal for this website, like any personal page, is to show off myself
 First and foremost, Jekyll sites are incredibly well integrated with GitHub and GitHub Pages, making it probably the best tool for quickly spinning up a robust personal site with blog functionality. 
 
 ### Extendability and Customization
-Jekyll also has a lot of extendability,. It is very customization-friendly, with with some good free plugins to build up the site. 
+Jekyll also has a lot of extendability. It is very customization-friendly, with with some good free plugins to build up the site. 
 
 ### Learn new technologies
 Jekyll is dependent on a couple of technologies that I've wanted to learn for a while now. It is built with Ruby, and uses the Liquid templating engine. I've wanted to learn Liquid since I made a Shopify website about 8 months ago (Shopify pages are built with Liquid, and Shopify was actually the original developer. The website was a quickly-failed made-to-order t-shirt e-commerce site...a story for a different time). 

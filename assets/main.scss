@@ -32,11 +32,15 @@
 .homepage-title h1{
     margin-bottom: 8px;
 }
-.homepage-title .subtitle{
+.subtitle{
     font-size: 20px;
     color: slategray;
     margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .h1-wrap h1{
     display: inline-block;
     padding-top: 1rem;
@@ -133,6 +137,10 @@
 .bitmoji-divider__bitmoji{
     padding: 0 .65rem;
     height: 30px;
+    transition: .75s;
+}
+.bitmoji-divider__bitmoji:hover{
+    transform: rotate(360deg);
 }
 
 .blog-posts__read-more{
