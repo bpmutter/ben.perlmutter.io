@@ -6,11 +6,13 @@ title: About
 <img src="/assets/ben-tienda-circle.png" id="ben-in-tienda" alt="picture of ben perlmutter">
 </div>
 
-I'm a software developer currently studying programming at the [App Academy](https://appacademy.io/) online bootcamp. I love programming, creating software, and learning the inner-workings of the internet. Prior to starting App Academy in February 2020, I had been studying programming independly using online resources like [The Odin Project](https://theodinproject.org).
+I'm a software developer currently studying programming at the [App Academy](https://appacademy.io/) online bootcamp. I love programming, creating software, and learning the inner-workings of the internet. Prior to starting App Academy in February 2020, I had been studying programming independently using online resources like [The Odin Project](https://theodinproject.org).
 
-Before I dove into learning software development full-time, I was already working in the world of tech. My previous position was as Market Development Lead at Mavatar Technologies, a small Silicon Valley e-commerce startup. As Market Development Lead, I worked in close collaboration with Mavatar's executive team on sales, marketing and content campaigns. 
+Before I dove into learning software development full-time, I was already working in the world of tech. My previous position was as **Market Development Lead at Mavatar Technologies**, a small Silicon Valley e-commerce startup. As Market Development Lead, I worked in close collaboration with Mavatar's executive team on sales, marketing and content campaigns. 
 
-I also founded PerlWrite, a content creation organization, where I collaborated with startups to realize their content strategy in the form of website copy, eBooks, blog posts, email campaigns and more. 
+I also founded **PerlWrite**, a content creation organization, where I collaborated with startups to realize their content strategy in the form of website copy, eBooks, blog posts, email campaigns and more. 
+
+Prior to transitioning to the world of tech, I taught English in Seoul, South Korea and then Cuenca, Ecuador.
 
 Learn more about my experience in <a href="/assets/ben-perlmutter-resume.pdf" target="_blank" title="Ben Perlmutter resume">my resume</a>.
 
