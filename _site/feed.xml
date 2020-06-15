@@ -1,4 +1,170 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-31T10:48:59-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ben.perlmutter</title><subtitle>Programmer in development. </subtitle><author><name>Ben Perlmutter</name></author><entry><title type="html">Tappdin, My First Full-Stack App</title><link href="http://localhost:4000/2020/05/24/tappdin-my-first-full-stack.html" rel="alternate" type="text/html" title="Tappdin, My First Full-Stack App" /><published>2020-05-24T00:00:00-05:00</published><updated>2020-05-24T00:00:00-05:00</updated><id>http://localhost:4000/2020/05/24/tappdin-my-first-full-stack</id><content type="html" xml:base="http://localhost:4000/2020/05/24/tappdin-my-first-full-stack.html">&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: The following document is an adapted from the project’s Github README. The project was made in collaboration with &lt;a href=&quot;https://github.com/JBui923&quot;&gt;Johnny Bui&lt;/a&gt; (front-end lead) and &lt;a href=&quot;https://github.com/giancarlo-sanchez&quot;&gt;Giancarlo Sanchez&lt;/a&gt; (backend lead), and myself (project manager). The code for the project represents a collaborative effort of us three.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-14T20:58:28-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ben.perlmutter</title><subtitle>Programmer in development. </subtitle><author><name>Ben Perlmutter</name></author><entry><title type="html">RappaMappa, Full-Stack MERN App</title><link href="http://localhost:4000/2020/06/14/RappaMappa-Fullstack-MERN.html" rel="alternate" type="text/html" title="RappaMappa, Full-Stack MERN App" /><published>2020-06-14T00:00:00-05:00</published><updated>2020-06-14T00:00:00-05:00</updated><id>http://localhost:4000/2020/06/14/RappaMappa-Fullstack-MERN</id><content type="html" xml:base="http://localhost:4000/2020/06/14/RappaMappa-Fullstack-MERN.html">&lt;p&gt;&lt;em&gt;By Ben Perlmutter - &lt;a href=&quot;http://rappamappa.herokuapp.com/&quot;&gt;Visit RappaMappa&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#rappamappa-at-a-glance&quot;&gt;RappaMappa at a Glance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#application-architecture&quot;&gt;Application Architecture &amp;amp; Technologies Used&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#frontend-overview&quot;&gt;Frontend Overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#backend-overview&quot;&gt;Backend Overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion-and-next-steps&quot;&gt;Conclusion &amp;amp; Next Steps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rappamappa-at-a-glance&quot;&gt;RappaMappa at a Glance&lt;/h2&gt;
+&lt;p&gt;RappaMappa is a fullstack &lt;a href=&quot;https://www.geeksforgeeks.org/mern-stack/&quot;&gt;MERN&lt;/a&gt; app that lets the user explore where rappers have come from and access information about the artist.&lt;/p&gt;
+
+&lt;p&gt;Users can visually explore the map, which features 581 artists, and search for artists with the integrated search box.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/rappa-mappa-demo-1.gif&quot; alt=&quot;RappaMappa at a glance&quot; /&gt;&lt;/p&gt;
+&lt;h5 id=&quot;rappamappa-at-a-glance-1&quot;&gt;RappaMappa at a glance&lt;/h5&gt;
+
+&lt;p&gt;RappaMappa is also integrated with the &lt;a href=&quot;https://developer.spotify.com/documentation/web-api/&quot;&gt;Spotify Web API&lt;/a&gt;. When users click on the ‘Music and More’ button for each rapper, it renders additional information about the artist from Spotify, including a link to listen to the artist’s music on the Spotify web player.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/rappa-mappa-demo-2.gif&quot; alt=&quot;RappaMappa artist search with more info&quot; /&gt;&lt;/p&gt;
+&lt;h5 id=&quot;rappamappa-artist-search-with-more-info&quot;&gt;RappaMappa artist search with more info&lt;/h5&gt;
+
+&lt;h2 id=&quot;application-architecture&quot;&gt;Application Architecture&lt;/h2&gt;
+&lt;p&gt;As noted above, RappaMappa is a fullstack MERN application. The majority of the application logic occurs within front end’s &lt;a href=&quot;https://redux.js.org/&quot;&gt;Redux&lt;/a&gt; store and its interactions with the &lt;a href=&quot;https://developers.google.com/maps/documentation/javascript/tutorial&quot;&gt;Google Maps Javascript API&lt;/a&gt; via the &lt;a href=&quot;https://www.npmjs.com/package/react-google-maps&quot;&gt;react-google-maps&lt;/a&gt; library. RappaMappa uses the &lt;a href=&quot;https://material-ui.com/&quot;&gt;Material UI framework&lt;/a&gt; for styling components.&lt;/p&gt;
+
+&lt;p&gt;The backend serves the frontend, responds to frontend requests, acts as an intermediary to serve Spotify data to the frontend, and fetches data from the MongoDB database.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/rappa-mappa-architecture.png&quot; alt=&quot;RappaMappa application architecture&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;frontend-overview&quot;&gt;Frontend Overview&lt;/h2&gt;
+&lt;p&gt;RappaMappa is very frontend heavy application. It makes extensive use of 3rd-party APIs and resources to create a dynamic and data-rich experience. Below are the frontend technologies that make this application possible.&lt;/p&gt;
+
+&lt;h3 id=&quot;frontend-technologies-used&quot;&gt;Frontend Technologies Used:&lt;/h3&gt;
+&lt;h4 id=&quot;react&quot;&gt;React&lt;/h4&gt;
+&lt;p&gt;At its core, RappaMappa is a React application. It uses very little of the core React library besides passing a few props, but makes extensive use of the technologies and libraries of the React ecosystem. Without the robust and well-documented React ecosystem, creating RappaMappa would have been a substantially more challenging enterprise.&lt;/p&gt;
+
+&lt;h4 id=&quot;redux&quot;&gt;Redux&lt;/h4&gt;
+&lt;p&gt;Redux and the react-redux library were used to manage application state and make fetch requests to the server for data.&lt;/p&gt;
+
+&lt;p&gt;All artist information is fetched on page load and kept in the Redux store. While this expensive operation lengthens the initial load time, it also allows for a snappy experience after that load.&lt;/p&gt;
+
+&lt;p&gt;Redux also stores and sets information about the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;activeRapper&lt;/code&gt;, whichever artist has been selected by the user. By managing this state in Redux, it provides easy access to the information across components without prop threading. This was particularly important because there were so many components in the application, largely due to all the artist pins being individual components, that if too many components were re-rendering constantly because of state change it would cause significant performance issues or crash the application completely. Redux provided a relatively simple way to manage this point of complexity.&lt;/p&gt;
+
+&lt;p&gt;Redux also allows for a lot of extendibility if new features are to be implemented (additional feature wish-list discussed in &lt;a href=&quot;#conclusion-and-next-steps&quot;&gt;conclusion&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h4 id=&quot;material-ui&quot;&gt;Material UI&lt;/h4&gt;
+&lt;p&gt;RappaMappa uses the Material UI framework. Material provides a great library of elegant, responsive components, and tools for refactoring them to the application’s need. There is also extensive documentation of Material, which helped resolve the issues that came up during the development process.&lt;/p&gt;
+
+&lt;p&gt;Material is also great for mobilize optimizing custom components with its &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;makeStyles&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;useMediaQuery&lt;/code&gt; hooks. These hooks were particularly useful for making the navbar and popup box responsive to varying device widths.&lt;/p&gt;
+
+&lt;p&gt;One Material component that was particularly important for the project was &lt;a href=&quot;https://material-ui.com/components/autocomplete/&quot;&gt;Autocomplete&lt;/a&gt;. It was used in the search box to dynamically display artist recommendations based on user input. The Autocomplete component allowed for a rich search experience with minimal technical overhead.&lt;/p&gt;
+
+&lt;h5 id=&quot;search-implementation-with-autocomplete-component&quot;&gt;Search implementation with Autocomplete component&lt;/h5&gt;
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SearchBox&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rapperNames&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rappers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rappers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;rapperNames&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rappers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rapper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rapper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fields&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;handleSearch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;query&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementsByName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;search-query&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rapperNames&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;includes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)){&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;invalidSearch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;&amp;lt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rappers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rappers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;form&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;onSubmit=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;handleSearch&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+            &amp;lt;Autocomplete
+              id=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;combo-box&quot;&lt;/span&gt;
+              &lt;span class=&quot;na&quot;&gt;options=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rapperNames&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+              &lt;span class=&quot;nt&quot;&gt;autoComplete&lt;/span&gt;
+              &lt;span class=&quot;na&quot;&gt;noOptionsText=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Please select one of the listed artists&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+              &lt;span class=&quot;na&quot;&gt;renderInput=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;TextField&lt;/span&gt;
+                  &lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;
+                  &lt;span class=&quot;na&quot;&gt;label=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SearchIcon&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+                  &lt;span class=&quot;na&quot;&gt;variant=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;outlined&quot;&lt;/span&gt;
+                  &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;search-query&quot;&lt;/span&gt;
+                  &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;
+                /&amp;gt;
+              )&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;/&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;form&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+        ) : null&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;&amp;lt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h4 id=&quot;google-maps-javascript-api&quot;&gt;Google Maps Javascript API&lt;/h4&gt;
+&lt;p&gt;The Google Maps Javascript API is absolutely essential to this project. Basically the entire frontend is built on top of the Google Maps API via the react-google-maps library. All artist information is rendered on a Google Map component as pins, and then displayed in custom stylized Infobox components.&lt;/p&gt;
+
+&lt;p&gt;The API has a truly robust feature set, of which this application just scratched the surface. However, with its scope also lie many bugs and other issues. Of particular pain throughout the development, were the Pins and Infobox components. For instance, to render the artist information on mobile devices, it required forgoing the Infobox component associated with the Pin of the large-screen version in favor of a different component positioned to the bottom of the screen. This change was necessary because the Infobox component has to have static position, while the mobile styling required positioning relative to the device window for easy use on smaller screen size.&lt;/p&gt;
+
+&lt;h4 id=&quot;fusejs&quot;&gt;Fuse.js&lt;/h4&gt;
+&lt;p&gt;To enable fuzzy searches (where match isn’t exact), RappaMappa uses the Fuse.js search library to load the closest result to the query if there is a reasonably close result. If nothing remotely similar to the query exists in the RappaMappa database, the application presents the user with a message saying there were no results.&lt;/p&gt;
+
+&lt;h2 id=&quot;backend-overview&quot;&gt;Backend Overview&lt;/h2&gt;
+&lt;p&gt;RappaMappa uses an Express server with MongoDB as the database. Compared to the frontend, the backend of RappaMappa is fairly simple, with the server sending the front end to the client, receiving requests, and sending data to the frontend. Below are the backend technologies used with some notes regarding their implementation.&lt;/p&gt;
+
+&lt;h3 id=&quot;backend-technologies-used&quot;&gt;Backend Technologies Used&lt;/h3&gt;
+&lt;h4 id=&quot;expressjs&quot;&gt;ExpressJS&lt;/h4&gt;
+&lt;p&gt;Express was the natural choice for RappaMappa’s server-side framework. The minimalism of Express lent itself to the very light-weight responsibilities of RappaMappa’s server. The server is just a couple of routes and a connection to the database, with a couple utilities to facilitate this.&lt;/p&gt;
+
+&lt;h4 id=&quot;mongodb&quot;&gt;MongoDB&lt;/h4&gt;
+&lt;p&gt;MongoDB was perfect for this project because its collections of JSON-like records made it very easy to store the artist information, which is in JSON object form. The &lt;a href=&quot;https://mongoosejs.com/&quot;&gt;Mongoose ORM&lt;/a&gt; was used to communicate between the database, hosted in MongoDB Atlas, and the server.&lt;/p&gt;
+
+&lt;h4 id=&quot;spotify-web-api&quot;&gt;Spotify Web API&lt;/h4&gt;
+&lt;p&gt;In addition to the information stored in the database, the backend also fetches additional artist data in a JSON object from the Spotify Web API. This information includes: artist image, artist popularity, subgenres, and an external link to listen to the artists on Spotify.&lt;/p&gt;
+
+&lt;p&gt;While the Spotify Web API is a fairly standard RESTful API, it requires authentication with a token that expires after an hour. To facilitate this, the Express server fetches a new token every hour, which is used in all requests to the Spotify server.&lt;/p&gt;
+
+&lt;h5 id=&quot;code-for-spotify-auth-flow&quot;&gt;Code for Spotify auth flow&lt;/h5&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// in /utils.js&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getSpotifyAccessToken&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;accountCredential&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;spotifyClientId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;spotifyClientSecret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;buff&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;accountCredential&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b64encodedAccountInfo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;buff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;base64&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://accounts.spotify.com/api/token&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;POST&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Content-Type&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;application/x-www-form-urlencoded&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;Authorization&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;`Basic &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b64encodedAccountInfo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;qs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stringify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;grant_type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;client_credentials&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}),&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;token&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//full token object&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;token&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// in server.js&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;spotifyAccessToken&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;spotifyAccessTokenVal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;spotifyAccessToken&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getSpotifyAccessToken&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;spotifyAccessTokenVal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;spotifyAccessToken&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;access_token&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})();&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;setInterval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;spotifyAccessToken&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getSpotifyAccessToken&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;spotifyAccessTokenVal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;spotifyAccessToken&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;access_token&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3500000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;rap-world-dataset&quot;&gt;Rap World Dataset&lt;/h4&gt;
+&lt;p&gt;The artist information in the database was gathered from the &lt;a href=&quot;https://public.opendatasoft.com/explore/dataset/rapworld/api/&quot;&gt;Rap World dataset&lt;/a&gt;. It’s a well-curated dataset with consistent information about rappers and where they’re from. Without this dataset, collecting the information that makes this project possible would have been much more complicated—likely involving some web scraping and *shudder* manual data entry.&lt;/p&gt;
+
+&lt;p&gt;It is worth noting that the Rap World data was generated as part of a somewhat similar project, &lt;a href=&quot;https://rapworldmap.com/&quot;&gt;Rap World Map&lt;/a&gt;. However, the Rap World Map site was actually down for the entire development of this project (June 2020), so the website was never used as a reference for the final product here. Any similarities beyond the fact that both projects use the same dataset are purely coincidental.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion-and-next-steps&quot;&gt;Conclusion and Next Steps&lt;/h2&gt;
+&lt;p&gt;Time to break the 4th wall. RappaMappa was a ton of fun to build. I’m a lifelong fan of hip-hop and it was an amazing experience getting to combine that passion with my newer passion for coding.&lt;/p&gt;
+
+&lt;p&gt;This also marks the first time that I’ve built a fullstack app solo, and my first project of significant scope where I originated the idea and brought it into existence. RappaMappa has been an incredibly rewarding to create.&lt;/p&gt;
+
+&lt;p&gt;While making RappaMappa, I got to play with a whole bunch of new technologies and get better at even more. At the beginning of the project, I’d only learned React 2 weeks previous, Redux 1 week before. I’ve come out of it stronger with both, and eager to continue getting better with React and creating cool stuff with the many amazing libraries and technologies of the React ecosystem.&lt;/p&gt;
+
+&lt;p&gt;This was also my first time using MongoDB (I’ve previously worked with Postgres). I found it and the full MERN stack very smooth and well integrated, and now understand why it’s so popular. I look forward to learning more about MongoDB and build projects  that have more robust backends than RappaMappa using it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Next Steps:&lt;/strong&gt; Next steps for RappaMappa may be found in the &lt;a href=&quot;https://github.com/bpmutter/RappaMappa/blob/master/project-todos.md&quot;&gt;project todo list&lt;/a&gt;, where you can also find a somewhat exhaustive list of the tasks of the project development. If you’d like to participate in the further development of RappaMappa, &lt;a href=&quot;https://twitter.com/bpmutter&quot;&gt;reach out to me (Ben Perlmutter) on Twitter&lt;/a&gt;. And if you want to support this project financially, please make a contribution to &lt;a href=&quot;https://secure.actblue.com/donate/ms_blm_homepage_2019&quot;&gt;Black Lives Matter&lt;/a&gt; instead.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading! ✌🏽&lt;/p&gt;</content><author><name>Ben Perlmutter</name></author><summary type="html">By Ben Perlmutter - Visit RappaMappa</summary></entry><entry><title type="html">Tappdin, My First Full-Stack App</title><link href="http://localhost:4000/2020/05/24/tappdin-my-first-full-stack.html" rel="alternate" type="text/html" title="Tappdin, My First Full-Stack App" /><published>2020-05-24T00:00:00-05:00</published><updated>2020-05-24T00:00:00-05:00</updated><id>http://localhost:4000/2020/05/24/tappdin-my-first-full-stack</id><content type="html" xml:base="http://localhost:4000/2020/05/24/tappdin-my-first-full-stack.html">&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: The following document is an adapted from the project’s Github README. The project was made in collaboration with &lt;a href=&quot;https://github.com/JBui923&quot;&gt;Johnny Bui&lt;/a&gt; (front-end lead) and &lt;a href=&quot;https://github.com/giancarlo-sanchez&quot;&gt;Giancarlo Sanchez&lt;/a&gt; (backend lead), and myself (project manager). The code for the project represents a collaborative effort of us three.&lt;/p&gt;
 
 &lt;p&gt;The code and live demo may be found here:&lt;/p&gt;
 &lt;ul&gt;
