@@ -7,10 +7,10 @@ layout: home
 <div class="img-wrap-center">
 <img src="/assets/img/28-bitmoji-internet-love.png" class="bitmoji-header">
 </div>
-<div class="homepage-title">
+<div class="homepage-title title-font-family">
     <h1>Ben Perlmutter</h1>
     <p class="subtitle">
-     Developer - Entrepreneur - Writer
+     Full-Stack Developer
         <!-- <span class="subtitle__trait">Developer</span>
         <img src="/assets/img/01-bitmoji-neutral.png" class="bitmoji-divider__bitmoji"> 
         <span class="subtitle__trait">Entrepreneur</span>

@@ -26,6 +26,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: #fefefe;
 }
 
 
@@ -39,7 +40,6 @@ ul, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
 }
-
 
 
 /**
@@ -94,7 +94,11 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  font-family: $title-font-family;
   font-weight: $base-font-weight;
+}
+.title-font-family {
+  font-family: $title-font-family;
 }
 
 
@@ -251,4 +255,15 @@ table {
   td {
     border: 1px solid $grey-color-light;
   }
+}
+
+hr{
+  border:none;
+  height: 20px;
+ 	width: 90%;
+	height: 30px;
+	margin-top: 0;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 20px 20px -20px #333;
+  margin: -30px auto 10px; 
 }
