@@ -126,7 +126,7 @@ You can also give me a follow on my socio-professional media: [Github](https://g
     </div>
     <div class="technologies__type">
         <h3>Technology Wishlist</h3>
-        <p>I also firmly believe in continuous learning. A couple of languages/frameworks/technologies I want to learn are: Ruby/Rails, Vue.js, and Python scraping, data science, and analytics. I'm also planning on writing a blog post about this soon, so stay tuned for that! 🤓</p>
+        <p>I also firmly believe in continuous learning. A couple of languages, frameworks and technologies I want to learn are: Ruby/Rails, Vue.js, and Python scraping, data science, and analytics. I'm also planning on writing a blog post about this soon, so stay tuned for that! 🤓</p>
     </div>
 </section>
 <section class="bitmoji-divider">

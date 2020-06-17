@@ -24,7 +24,7 @@ Before you fully commit to the life of code, learn the basics and make sure it�
 **I'd estimate that doing everything outlined below will take approximately 2 months if you're studying 15hrs/week.**
  
 ### TOP FTW 
-For anyone looking to learn software development, I highly recommend finishing **[the Odin Project](https://theodinproject.com) (TOP) WEb Development 101**. It’s a free online curriculum that aggregates some of the best free resources on the internet, and pieces them together into a unified curriculum, with some cool projects thrown in. It’s instructions aren’t super in-depth, but gives you just enough structure and guidance to push you along. Plus, this builds independence and self-teaching, necessary traits for any developer.
+For anyone looking to learn software development, I highly recommend finishing **[The Odin Project](https://theodinproject.com) (TOP) Web Development 101**. It’s a free online curriculum that aggregates some of the best free resources on the internet, and blends them together into a unified curriculum, with some cool projects thrown in. It’s instructions aren’t super in-depth, but gives you just enough structure and guidance to push you along. Plus, this builds independence and self-teaching, necessary traits for any developer.
  
 TOP provides a great foundation for further learning, and you get to produce some cool projects like a [tomato timer](https://bpmutter.github.io/tomato-timer/) and [calculator](https://bpmutter.github.io/calculator/).
  
