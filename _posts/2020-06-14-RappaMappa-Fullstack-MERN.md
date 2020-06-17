@@ -185,4 +185,4 @@ This was also my first time using MongoDB (I've previously worked with Postgres)
 
 **Next Steps:** Next steps for RappaMappa may be found in the [project todo list](https://github.com/bpmutter/RappaMappa/blob/master/project-todos.md), where you can also find a somewhat exhaustive list of the tasks of the project development. If you'd like to participate in the further development of RappaMappa, [reach out to me (Ben Perlmutter) on Twitter](https://twitter.com/bpmutter). And if you want to support this project financially, please make a contribution to [Black Lives Matter](https://secure.actblue.com/donate/ms_blm_homepage_2019) instead. 
 
-Thanks for reading! ✌🏽eading! ✌🏽
+Thanks for reading! ✌🏽

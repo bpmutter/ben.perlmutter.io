@@ -62,7 +62,7 @@ It should be noted that if you’re going down this path, make sure that you hav
  
 I've also heard good things about going to coding meetups. Check Facebook and Meetup for stuff near you. I’ve never actually done this, so can't speak to it personally. But I have a couple of friends who’ve had positive experiences with Meetups, and it’s consistently mentioned round the web as a helpful tool for getting into your local developer community.
  
-### Step 1 Wrap Up
+### Part I Wrap Up
 Alright that was a lot of words, but really it’s just 3 simple steps:
 1. **The Odin Project Web Development 101** to learn programming fundamentals
 2. **Watch some YouTube videos and read some blog posts** in your free time to learn more about the industry and computer science
