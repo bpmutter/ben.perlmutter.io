@@ -56,6 +56,57 @@
         display: flex;
         justify-content: center;
 }
+.projects{
+    margin-bottom: 2rem;
+}
+.projects__container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.projects__project-container{
+    width: 225px;
+    height: 225px;
+    background-image: url(/assets/sad-icecream-ben.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: .5rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+.projects__project-description{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: .5rem;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    padding: .25rem;
+    // z-index: 1;
+    box-sizing: border-box;
+    color: #f5f5f5;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    transition: height 0.2s linear;
+}
+.projects__project-description--expand:hover,
+.projects__project-description--expand:active {
+    height: 150px;
+}
+.projects__project-info{
+    font-size: 14px;
+}
+.projects__project-learn-more-btn{
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-left: .5rem;
+    display: inline-block;
+    width: 50%;
+    cursor: pointer;
+}
 .technologies__container{
     display: flex;
     flex-direction: row;
