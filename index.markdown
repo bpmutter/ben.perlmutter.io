@@ -176,7 +176,7 @@ You can also give me a follow on my socio-professional media:
     <img src="/assets/img/01-bitmoji-neutral.png" class="bitmoji-divider__bitmoji">
 </section>
 
-<script defer type="text/javascript" src="/assets/js/technologies.js"></script>
+<script defer type="text/javascript" src="/assets/js/homepage.js"></script>
 
 <!-- ## Skills
 coming soon....
