@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tappdin, My First Full-Stack App
+categories: projects
 ---
 **NOTE**: The following document is an adapted from the project's Github README. The project was made in collaboration with [Johnny Bui](https://github.com/JBui923) (front-end lead) and [Giancarlo Sanchez](https://github.com/giancarlo-sanchez) (backend lead), and myself (project manager). The code for the project represents a collaborative effort of us three. 
 

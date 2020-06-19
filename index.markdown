@@ -44,7 +44,7 @@ You can also give me a follow on my socio-professional media:
                 >RappaMappa</h3>
                 <p class="projects__project-info">Interactive map of world's most popular rap artists. </p>
                 <a class="projects__project-learn-more-btn title-font-family"
-                    href="/2020/06/14/RappaMappa-Fullstack-MERN.html"
+                    href="/projects/2020/06/14/RappaMappa-Fullstack-MERN.html"
                 >
                     Learn More
                 </a>
@@ -56,7 +56,7 @@ You can also give me a follow on my socio-professional media:
                 <h3 class="projects__project-title">Tappdin</h3>
                 <p class="projects__project-info">Full-stack CRUD beer-tracking application.</p>
                 <a class="projects__project-learn-more-btn title-font-family"
-                    href="/2020/05/24/tappdin-my-first-full-stack.html"
+                    href="/projects/2020/05/24/tappdin-my-first-full-stack.html"
                 >
                     Learn More
                 </a>
@@ -178,7 +178,7 @@ You can also give me a follow on my socio-professional media:
     </div>
     <div class="technologies__type">
         <h3 class="technologies__title">Technology Wishlist</h3>
-        <p>I also firmly believe in continuous learning. A couple of languages, frameworks and technologies I want to learn are: Ruby/Rails, Vue.js, and Python scraping, and some fundamental data science and analytics. I'm also planning on writing a blog post about this soon, so stay tuned for that! 🤓</p>
+        <p>I also firmly believe in continuous learning. A couple of languages, frameworks and technologies I want to learn are: Ruby/Rails, Vue.js, and Python scraping, and some fundamental data science and analytics. You can read more about why I want to learn these technologies in <a href="/2020/06/19/technology-wishlist.html">this blog post</a>.</p>
     </div>
 </section>
 <section class="bitmoji-divider">
