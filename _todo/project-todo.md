@@ -8,10 +8,10 @@
   * [x] set up images for ea project with name overlayed 
   * [x] on hover, overlay with a bit of additional information accompanying the title 
   * [x] add JS event for click on img to show project info
-  * [ ] on click, links to the section of the [projects page](#projects-page)
-    * NOTE: checkout the CSS apperance prop to make lnk look like button: https://css-tricks.com/almanac/properties/a/appearance/ 
+  * [X] on click, links to the section of the [projects page](#projects-page)
+    * [X] NOTE: checkout the CSS apperance prop to make lnk look like button: https://css-tricks.com/almanac/properties/a/appearance/ 
 * [ ] technologies list
-  * [ ] fix up text for all (right now a lot of placeholder)
+  * [x] fix up text for all (right now a lot of placeholder)
   * [ ] add MongoDB for backend techs 
 * [ ] soft skills sections
   * [ ] soft skill list
@@ -22,8 +22,8 @@
   * [ ] design the section
     * [ ] some module for each skill 
     * [ ] put together
-  * [ ] misc
-    * [ ] mobile: make 'ben.perlmutter' bit smaller/more left aligned
+* [ ] misc
+  * [ ] mobile: make 'ben.perlmutter' bit smaller/more left aligned
 
 ### projects page
 * [ ] create project section (template with one)

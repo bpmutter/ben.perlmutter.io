@@ -121,13 +121,26 @@
     font-size: 14px;
 }
 .projects__project-learn-more-btn{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
     background-color: #f5f5f5;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    text-align: center;
+    color: #333 !important;
+    padding: .25rem;
+    text-decoration: none;
     margin-left: .5rem;
     display: inline-block;
     width: 50%;
     cursor: pointer;
     border-radius: .25rem;
+}
+.projects__project-learn-more-btn:hover{
+    text-decoration: none;
+    background-color: #333;
+    color: #f5f5f5 !important;
 }
 .technologies__container{
     display: flex;

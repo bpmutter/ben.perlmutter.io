@@ -43,27 +43,34 @@ You can also give me a follow on my socio-professional media:
                 <h3 class="projects__project-title"
                 >RappaMappa</h3>
                 <p class="projects__project-info">Interactive map of world's most popular rap artists. </p>
-                <button class="projects__project-learn-more-btn title-font-family">
+                <a class="projects__project-learn-more-btn title-font-family"
+                    href="/2020/06/14/RappaMappa-Fullstack-MERN.html"
+                >
                     Learn More
-                </button>
+                </a>
             </div>
         </div>
-        <div class="projects__project-container" id="projects__tappdin">
+        <div class="projects__project-container" id="projects__tappdin"
+        >
             <div class="projects__project-description projects__project-description--expand"> 
                 <h3 class="projects__project-title">Tappdin</h3>
                 <p class="projects__project-info">Full-stack CRUD beer-tracking application.</p>
-                <button class="projects__project-learn-more-btn title-font-family">
+                <a class="projects__project-learn-more-btn title-font-family"
+                    href="/2020/05/24/tappdin-my-first-full-stack.html"
+                >
                     Learn More
-                </button>
+                </a>
             </div>
         </div>
         <div class="projects__project-container" id="projects__ben-perlmutter-io">
             <div class="projects__project-description projects__project-description--expand"> 
                 <h3 class="projects__project-title">ben.perlmutter.io</h3>
                 <p class="projects__project-info">Heavily-hacked Jekyll personal site. (this website)</p>
-                <button class="projects__project-learn-more-btn title-font-family">
+                <a class="projects__project-learn-more-btn title-font-family"
+                    href="#"
+                >
                     Learn More
-                </button>
+                </a>
             </div>
         </div>
     </div>
