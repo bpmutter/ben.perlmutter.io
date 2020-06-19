@@ -25,6 +25,22 @@
 * [ ] misc
   * [ ] mobile: make 'ben.perlmutter' bit smaller/more left aligned
 
+### blog posts 
+* [ ] technology wishlist
+  * [x] write article
+  * [x] publish article
+  * [ ] edit article 
+* [ ] spotify web api guide 
+  * [ ] write article
+  * [ ] edit article
+  * [ ] publish article to blog
+  * [ ] get feedback
+  * [ ] publish to medium
+* [ ] if i were to do it again part ii 
+  * [ ] write article 
+  * [ ] edit article
+  * [ ] publish article to blog
+* [ ] README-type article for ben.perlmutter.io
 ### projects page
 * [ ] create project section (template with one)
 * [ ] create project sections for ea. project 
@@ -38,12 +54,17 @@
 * [ ] create GIFs for various projects (i don't think it's necessary for all)
   * [ ] RappaMappa
 
-
+### bugs
+* [ ] navbar bitmoji JS not working on blog post pages...
+  * note: there's an error in the console where it messes up the relative path
+* [ ] the avocado head photo is massive (7 MB), which gives really slow load time 
+  * SLN: compress to 1MB or smthn like that
 
 ## Complete
 
 ## Looney Ideas 
 * By the numbers page that displays data from my github/other sources
   * number of repos, lines per language, etc. 
-  * information about the blog...number of posts, avg words per post, etc 
+  * information about the blog...number of posts, avg words per post, etc.
+  * some version of this is def feasable, but not sure if there is data that could actually make this a good feature that i'd actually want to add
 * make everything (or at least some things) drag and drop 
