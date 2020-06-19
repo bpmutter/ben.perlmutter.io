@@ -77,6 +77,15 @@
     margin: .5rem 0;
     cursor: pointer;
 }
+#projects__rappa-mappa{
+   background-image: url(/assets/img/rappa-mappa-thumbnail.png);
+}
+#projects__tappdin{
+    background-image: url(/assets/img/tappdin-thumbnail.png);
+}
+#projects__ben-perlmutter-io{
+    background-image: url(/assets/img/ben-perlmutter-io-thumbnail.png);
+}
 .projects__project-description{
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: .5rem;
@@ -85,7 +94,7 @@
     left: 0;
     position: absolute;
     padding: .25rem;
-    z-index: 1;
+    // z-index: 1;
     box-sizing: border-box;
     color: #f5f5f5;
     display: inline-flex;
@@ -99,9 +108,14 @@
     transform: scale(1.1);
     z-index: 2;
 }
-// .projects__project-description--expand:active,
+.projects__project-description--expand:hover,
+.projects__project-description--expand:active,
 .projects__project-description--external-expand{
     height: 150px;
+}
+
+.projects__project-title{
+    align-self: center;
 }
 .projects__project-info{
     font-size: 14px;
