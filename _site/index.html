@@ -71,9 +71,9 @@
 <section class="projects">
     <h2>Projects</h2>
     <div class="projects__container">
-        <div class="projects__project-container">
-            <div class="projects__project-description projects__project-description--expand"> 
-                <h3 class="projects__project-title"> Sad Project </h3>
+        <div class="projects__project-container" id="sad-project-container">
+            <div class="projects__project-description projects__project-description--expand" id="sad-project-description"> 
+                <h3 class="projects__project-title" id="sad-project-title"> Sad Project </h3>
                 <p class="projects__project-info">This is a full-stack and full-sad project.</p>
                 <button class="projects__project-learn-more-btn title-font-family">
                     Learn More
@@ -132,34 +132,35 @@
                 <div class="technologies__description" id="react-description">
                     <h4 class="technologies__header">React</h4>
                     <div class="technologies__description-content">
-                        <p>How do I put this...before learning React, I didn't know I could have this strong an emotional connection to a technological. I LOVE React. It is elegant and clean.  And more importantly, you can make some seriously cool stuff with it.</p>
-                        <p>I'm fairly new to the React game, but loyal to the game. The ecosystem is pretty amazing. </p>
+                        <p>How do I put this...before learning React, I didn't know I could have this strong an emotional connection to a technology. I LOVE React. It is elegant (certain prop threading situations aside). And more importantly, you can make some seriously cool stuff with it with minimal headache thanks to its amazing ecosystem.</p>
+                        <p>I have experience with React, Redux, Material UI, the Google Maps API, and more. I looks forward to learning new technologies within the React ecosystem and growing as a React developer.</p>
                     </div>
                 </div>
                 <div class="technologies__description" id="css-description">
                     <h4 class="technologies__header">CSS</h4>
                     <div class="technologies__description-content">
-                        <p>To be direct: CSS is not my favorite part of software development. I consider myself pretty in creating decent looking styles in CSS. But I really prefer </p>
-                        <p>I'm fairly new to the React game, but loyal to the game. The ecosystem is pretty amazing. </p>
+                        <p>Having a nice looking and engaging project is obviously important. No matter how beautifully written your  Javascript is, no one will want to use your project unless it looks nice. CSS makes that possible.</p>
+                        <p>For that, I am appreciative of CSS and acknowledge its importance. However, CSS is not my favorite part of software development—it can be tedious and challenging to debug.</p> 
+                        <p>With all that being said, I consider myself pretty decent at creating nice looking styles in CSS. (The styling on this site was made all with plain ol' CSS and a bit of SASS.) I also highly value the awesome CSS and UI frameworks like Material, Bootstrap and more.</p>
                     </div>
                 </div>
                 <div class="technologies__description" id="jekyll-description">
                     <h4 class="technologies__header">Jekyll</h4>
                     <div class="technologies__description-content">
                         <p>You're currently looking at Jekyll site! I really like Jekyll because it lets you rapidly spin up a presentable site, and easily deploy via Github pages. Jekyll sites are also highly customizable with a bit of time, effort and persistance. </p>
-                        <p>This site, for instance, is actually my personal modificaitons on the base Jekyll theme minima. I just threw a whole bunch of CSS, JS, and Bitmoji on top of the theme to make the site you're looking at. If you'd like to learn more about the site you can check out the <a href="https://github.com/bpmutter/ben.perlmutter.io">Github repo</a>.</p>
+                        <p>This site, for instance, is actually my heavily hacked version of the base Jekyll theme minima. I just threw a whole bunch of CSS, JS, and Bitmoji on top of the theme to make the site you're looking at. If you'd like to learn more about the site you can check out the <a href="https://github.com/bpmutter/ben.perlmutter.io" target="_blank">Github repo</a>.</p>
                     </div>
                 </div>
                 <div class="technologies__description" id="pug-description">
                     <h4 class="technologies__header">Pug</h4>
                     <div class="technologies__description-content">
-                        <p>Before I learned React, I got pretty proficient with the Pug templating engine. More than anything else, my experience with Pug makes me appreciate React more. However, with that being said, I appreciate Pug for its ability to render dynamic content from the server with minimal client-side Javascript.</p>
+                        <p>Before I learned React, I got pretty proficient with the Pug templating engine. More than anything else, my experience with Pug makes me appreciate React more. However, with that being said, I value Pug for its ability to render dynamic content from the server with minimal client-side Javascript.</p>
                     </div>
                 </div>
                 <div class="technologies__description" id="html-description">
                     <h4 class="technologies__header">HTML</h4>
                     <div class="technologies__description-content">
-                        <p>I'm pretty familiar with HTML, and all its semantic tags. But, for everyone's sake, let's just write JSX! 😉</p>
+                        <p>I'm pretty competent with HTML, and all its semantic tags. But, for everyone's sake, let's just write JSX! 😉</p>
                     </div>
                 </div>
             </div>
@@ -176,25 +177,26 @@
             <div class="technologies__description" id="express-description">
                 <h4 class="technologies__header">Node &amp; Express</h4>
                 <div class="technologies__description-content">
-                    <p>I live Javascript, client and server-side. </p>
+                    <p>I'm a big fan of Javascript, and that extends to the server side. I have built multiple projects with Express, both large and small. What I really appreciate about Express is how well it lends itself to large projects, small ones, and everything in between.</p>
                 </div>
             </div>
             <div class="technologies__description" id="python-description">
                 <h4 class="technologies__header">Python</h4>
                 <div class="technologies__description-content">
-                    <p>Python is the Spanish to Javascript's English. It's a fairly straightforward language. And like the Spanish-speaking world with all its diversity, there are near-infinite uses for Python.</p>
+                    <p>Python is clean. With Flask, I can can make a nice Python server as well. And for anything computer-science related, it's my preferred language.</p>
+                    <p>In the not too distant future, I would also like to learn web scraping in Python and how to perform data analytics with the language. My academic background is actually in math and statistical political science, so I would like to combine this knowledge with my newer coding ability.</p>
                 </div>
             </div>
             <div class="technologies__description" id="flask-description">
                 <h4 class="technologies__header">Flask</h4>
                 <div class="technologies__description-content">
-                    <p>Werk in progress ⚙️</p>
+                    <p>Flask is simple, but it gets the job done for spinning up simple but scalable web servers.</p>
                 </div>
             </div>
             <div class="technologies__description" id="postgres-description">
                 <h4 class="technologies__header">Postgres</h4>
                 <div class="technologies__description-content">
-                    <p>Your app ain't nuthin if you can't save its data. Cue Postgres. I also have experience using SQL ORMs such as the NodeJS Sequelize library.</p>
+                    <p>Data persistence is important, and Postgres does that.</p>
                 </div>
             </div>
         </div>

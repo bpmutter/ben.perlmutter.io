@@ -7,7 +7,7 @@
 * [ ] projects section
   * [x] set up images for ea project with name overlayed 
   * [x] on hover, overlay with a bit of additional information accompanying the title 
-  * [ ] add JS event for hover on img to show project info
+  * [x] add JS event for click on img to show project info
   * [ ] on click, links to the section of the [projects page](#projects-page)
     * NOTE: checkout the CSS apperance prop to make lnk look like button: https://css-tricks.com/almanac/properties/a/appearance/ 
 * [ ] technologies list

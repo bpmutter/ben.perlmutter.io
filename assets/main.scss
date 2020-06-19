@@ -95,8 +95,11 @@
     transition: height 0.2s linear;
 }
 // note: external expand is for when it's triggered by clicking on the img itself
-.projects__project-description--expand:hover,
-.projects__project-description--expand:active,
+.projects__project-container:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+// .projects__project-description--expand:active,
 .projects__project-description--external-expand{
     height: 150px;
 }

@@ -3,34 +3,53 @@ document.querySelector('.projects__container').addEventListener("click", (e)=>{
     const allProjectDescriptions = document.querySelectorAll(
       ".projects__project-description"
     );
-    if (e.target.classList.contains("projects__project-container") && !displayingProject) {
-        
-        const projectDescription = e.target.childNodes[1];
-        console.log(e.target.classList)
-
-        projectDescription.classList.add(
+    if (
+      (e.target.classList.contains("projects__project-container")) &&
+      !displayingProject
+    ) {
+      const projectDescription = e.target.childNodes[1];
+      projectDescription.classList.add(
         "projects__project-description--external-expand"
+      );
+      console.log("AFTER CLICK ON BOX::", projectDescription);
+      displayingProject = true;
+    } 
+    //WORK IN PROGRESS!
+    // else if((e.target.classList.contains("projects__project-title")) &&
+    //     !displayingProject
+    //   ){
+    //         const projectDescription = e.target.parentElement;
+    //         console.log("CLICK ON TITLE::", projectDescription)
+    //         projectDescription.classList.add('projects__project-description--external-expand')
+    //         console.log('AFTER CLICK ON TITLE::', projectDescription)
+    //         displayingProject = true;
+        
+    // } 
+    else if (
+      e.target.classList.contains("projects__project-container") &&
+      displayingProject
+    ) {
+      const projectDescription = e.target.childNodes[1];
+      if (
+        projectDescription.classList.contains(
+          "projects__project-description--external-expand"
+        )
+      ) {
+        projectDescription.classList.remove(
+          "projects__project-description--external-expand"
+        );
+        displayingProject = false;
+      } else {
+        allProjectDescriptions.forEach((project) =>
+          project.classList.remove(
+            "projects__project-description--external-expand"
+          )
+        );
+        projectDescription.classList.add(
+          "projects__project-description--external-expand"
         );
         displayingProject = true;
-    }
-    else if(e.target.classList.contains("projects__project-container") && displayingProject){
-        const projectDescription = e.target.childNodes[1];
-        if(projectDescription.classList.contains("projects__project-description--external-expand")){
-            projectDescription.classList.remove(
-              "projects__project-description--external-expand"
-            );
-            displayingProject = false;
-        } else{
-            allProjectDescriptions.forEach((project) =>
-              project.classList.remove(
-                "projects__project-description--external-expand"
-              )
-            );
-            projectDescription.classList.add(
-              "projects__project-description--external-expand"
-            );
-            displayingProject = true;
-        } 
+      }
     }
 })
 
