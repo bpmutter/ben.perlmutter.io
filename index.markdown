@@ -36,7 +36,7 @@ You can also give me a follow on my socio-professional media: [Github](https://g
     <h2>Technologies</h2>
     <p>I have experience with the following languages, frameworks, and technologies.</p>
         <div class="technologies__type">
-            <h3>Frontend Technologies</h3>
+            <h3 >Frontend Technologies</h3>
             <div class="technologies__container technologies__front-end">
                 <img src="/assets/img/technologies/javascript.png" class="technologies__img" id="technologies__javascript">
                 <img src="/assets/img/technologies/react.png" class="technologies__img" id="technologies__react">
@@ -90,7 +90,7 @@ You can also give me a follow on my socio-professional media: [Github](https://g
             </div>
     </div>
     <div class="technologies__type">
-        <h3>Backend Technologies</h3>
+        <h3 class="technologies__title">Backend Technologies</h3>
         <div class="technologies__container technologies__back-end">
             <img src="/assets/img/technologies/node-express.png" class="technologies__img" id="technologies__express">
             <img src="/assets/img/technologies/python.png" class="technologies__img" id="technologies__python">
@@ -125,7 +125,7 @@ You can also give me a follow on my socio-professional media: [Github](https://g
         </div>
     </div>
     <div class="technologies__type">
-        <h3>Technology Wishlist</h3>
+        <h3 class="technologies__title">Technology Wishlist</h3>
         <p>I also firmly believe in continuous learning. A couple of languages, frameworks and technologies I want to learn are: Ruby/Rails, Vue.js, and Python scraping, data science, and analytics. I'm also planning on writing a blog post about this soon, so stay tuned for that! 🤓</p>
     </div>
 </section>

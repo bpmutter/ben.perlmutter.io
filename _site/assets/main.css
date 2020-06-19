@@ -216,6 +216,8 @@ hr { border: none; height: 20px; width: 90%; height: 30px; margin-top: 0; border
 
 .technologies__container { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly; }
 
+.technologies__title { padding-top: 1.5rem; }
+
 .technologies__img { width: 80px; height: 80px; padding: 1rem; cursor: pointer; }
 
 .technologies__img:hover { transform: scale(1.25); }
