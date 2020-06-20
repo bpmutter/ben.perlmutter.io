@@ -258,7 +258,7 @@ hr { border: none; height: 20px; width: 90%; height: 30px; margin-top: 0; border
 
 .bitmoji-header { width: 300px; height: 300px; padding-bottom: 2rem; }
 
-#ben-in-tienda { max-width: 350px; margin-bottom: 2rem; border-radius: 50%; box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); }
+#ben-in-tienda { max-width: 350px; max-height: 350px; margin-bottom: 2rem; border-radius: 50%; box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); }
 
 #avocado-head { max-width: 425px; margin: 2rem 0; border-radius: 2rem; box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); }
 
