@@ -40,7 +40,12 @@
   * [ ] write article 
   * [ ] edit article
   * [ ] publish article to blog
-* [ ] README-type article for ben.perlmutter.io
+* [ ] README for ben.perlmutter.io
+  * [ ] write
+  * [ ] edit 
+  * [ ] publish to Github
+  * [ ] add as blog post
+
 ### projects page
 * [ ] create project section (template with one)
 * [ ] create project sections for ea. project 
@@ -55,7 +60,7 @@
   * [ ] RappaMappa
 
 ### bugs
-* [ ] navbar bitmoji JS not working on blog post pages...
+* [x] navbar bitmoji JS not working on blog post pages...
   * note: there's an error in the console where it messes up the relative path
 * [ ] the avocado head photo is massive (7 MB), which gives really slow load time 
   * SLN: compress to 1MB or smthn like that

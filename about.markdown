@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 <div class="img-wrap-center">
-<img src="/assets/ben-tienda-circle.png" id="ben-in-tienda" alt="picture of ben perlmutter">
+<img src="/assets/img/ben-in-tienda-circle.png" id="ben-in-tienda" alt="picture of ben perlmutter">
 </div>
 
 I'm a software developer currently studying programming at the [App Academy](https://appacademy.io/) online bootcamp. I love programming, creating software, and learning the inner-workings of the internet. Prior to starting App Academy in February 2020, I had been studying programming independently using online resources like [The Odin Project](https://theodinproject.org).
