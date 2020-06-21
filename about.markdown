@@ -17,7 +17,7 @@ Prior to transitioning to the world of tech, I taught English in Seoul, South Ko
 Learn more about my experience in <a href="/assets/ben-perlmutter-resume.pdf" target="_blank" title="Ben Perlmutter resume">my resume</a>.
 
 ### Connect with Me
-[Mail](mailto:ben@perlmutter.io) / [Github](https://github.com/bpmutter) / [LinkedIn](https://www.linkedin.com/in/ben-perlmutter-a410228a/) / [Twitter](https://twitter.com/bpmutter)
+[Email](mailto:ben@perlmutter.io) / [Github](https://github.com/bpmutter) / [LinkedIn](https://www.linkedin.com/in/ben-perlmutter-a410228a/) / [Twitter](https://twitter.com/bpmutter)
 
 <div class="bitmoji-divider">
     <img src="/assets/img/01-bitmoji-neutral.png" class="bitmoji-divider__bitmoji">
