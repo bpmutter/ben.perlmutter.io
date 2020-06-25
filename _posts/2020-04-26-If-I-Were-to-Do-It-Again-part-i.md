@@ -8,7 +8,7 @@ I am now about 8 months into learning software development, and it’s been 4 mo
  
 The other day, I was thinking upon my journey so far, what I’ve done right, and what I’d do differently. 
  
-Overall, I’m pretty happy with the choices I’ve made and the direction I’ve gone, but there is always room for improvement. In [this article](/#) I discuss what those steps have been. 
+Overall, I’m pretty happy with the choices I’ve made and the direction I’ve gone, but there is always room for improvement. In another article some time soon, I'd like to discuss what those steps have been. 
  
 In this post, I wanted to take a moment to reflect on what, if I were to start from zero, I would do. I hope that this article can serve as guidance to anyone looking to get into the software development field. It can be daunting to start learning programming on your own. What language to start? What courses and resources to use? How much to practice?
  

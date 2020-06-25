@@ -12,7 +12,9 @@
     * [X] NOTE: checkout the CSS apperance prop to make lnk look like button: https://css-tricks.com/almanac/properties/a/appearance/ 
 * [ ] technologies list
   * [x] fix up text for all (right now a lot of placeholder)
-  * [ ] add MongoDB for backend techs 
+  * [ ] add MongoDB for backend techs
+  * [ ] update flask section now that i have some more flask experience
+  * [ ] in the Postgres section, add SEquelize and SQLAlchemy  
 * [ ] soft skills sections
   * [ ] soft skill list
     * [ ] entrepreneurial 
