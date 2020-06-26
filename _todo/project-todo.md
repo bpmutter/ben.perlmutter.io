@@ -9,7 +9,7 @@
   * [x] on hover, overlay with a bit of additional information accompanying the title 
   * [x] add JS event for click on img to show project info
   * [X] on click, links to the section of the [projects page](#projects-page)
-    * [X] NOTE: checkout the CSS apperance prop to make lnk look like button: https://css-tricks.com/almanac/properties/a/appearance/ 
+    * [X] NOTE: checkout the CSS apperance prop to make lnk look like button: https://css-tricks.com/almanac/properties/a/appearance/
 * [ ] technologies list
   * [x] fix up text for all (right now a lot of placeholder)
   * [ ] add MongoDB for backend techs
@@ -51,8 +51,8 @@
 ### projects page
 * [ ] create project section (template with one)
 * [ ] create project sections for ea. project 
-  * [ ] RappaMappa
-  * [ ] Tappdin
+  * [x] RappaMappa
+  * [x] Tappdin
   * [ ] ben.perlmutter.io (why not...meta)
 * [ ] create demo modal
   * [ ] modal -- i think from one of the pre a/A projects where i had a modal, that code could be copied 
