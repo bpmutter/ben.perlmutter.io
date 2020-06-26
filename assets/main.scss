@@ -307,15 +307,6 @@
     z-index: 2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-#rappa-mappa-img{
-    background-image: url(/assets/img/rappa-mappa-thumbnail.png);
-}
-#tappdin-img{
-    background-image: url(/assets/img/tappdin-thumbnail.png);
-}
-#ben-perlmutter-io-img{
-    background-image: url(/assets/img/ben-perlmutter-io-thumbnail.png)
-}
 
 .project__technologies-used{
     margin-bottom: .5rem;
@@ -328,6 +319,18 @@
     // border-radius: .3rem;
     padding: .5rem 0 .5rem .5rem;
     margin: 0 .2rem .5rem;
+}
+
+#rappa-mappa-img {
+    background-image: url(/assets/img/rappa-mappa-thumbnail.png);
+}
+
+#tappdin-img {
+    background-image: url(/assets/img/tappdin-thumbnail.png);
+}
+
+#ben-perlmutter-io-img {
+    background-image: url(/assets/img/28-bitmoji-internet-love.png)
 }
 
 

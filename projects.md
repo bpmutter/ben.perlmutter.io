@@ -120,7 +120,7 @@ Here are a couple of the projects that I'm most proud of and best demonstrate my
         <div class="project__description">
             <div class="project__summary">
                 <ul>
-                    <li>Heavily customized Jekyll site and blog</li>
+                    <li>Heavily customized Jekyll site with blog</li>
                     <li>Styled with HTML and SCSS and Liquid templating</li>
                     <li>Interactivity and Bitmoji effects created with Vanilla JS</li>
                     <li>Actively maintained personal blog written in Markdown</li>

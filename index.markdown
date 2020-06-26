@@ -37,7 +37,7 @@ You can also give me a follow on my socio-professional media:
 <section class="projects">
     <h2>Projects</h2>
     <div class="projects__container">
-        <div class="projects__project-container" id="projects__rappa-mappa">
+        <div class="projects__project-container" id="rappa-mappa-img">
             <div class="projects__project-description projects__project-description--expand"
             > 
                 <h3 class="projects__project-title"
@@ -50,7 +50,7 @@ You can also give me a follow on my socio-professional media:
                 </a>
             </div>
         </div>
-        <div class="projects__project-container" id="projects__tappdin"
+        <div class="projects__project-container" id="tappdin-img"
         >
             <div class="projects__project-description projects__project-description--expand"> 
                 <h3 class="projects__project-title">Tappdin</h3>
@@ -62,7 +62,7 @@ You can also give me a follow on my socio-professional media:
                 </a>
             </div>
         </div>
-        <div class="projects__project-container" id="projects__ben-perlmutter-io">
+        <div class="projects__project-container" id="ben-perlmutter-io-img">
             <div class="projects__project-description projects__project-description--expand"> 
                 <h3 class="projects__project-title">ben.perlmutter.io</h3>
                 <p class="projects__project-info">Heavily-hacked Jekyll personal site. (this website)</p>
