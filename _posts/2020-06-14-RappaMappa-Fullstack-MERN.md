@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RappaMappa, Full-Stack MERN App
+title: "RappaMappa: Full-Stack MERN App"
 categories: projects
 ---
 *By Ben Perlmutter - [Visit RappaMappa](http://rappamappa.herokuapp.com/)*

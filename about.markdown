@@ -16,7 +16,7 @@ Prior to transitioning to the world of tech, I taught English in Seoul, South Ko
 
 Learn more about my experience in <a href="/assets/ben-perlmutter-resume.pdf" target="_blank" title="Ben Perlmutter resume">my resume</a>.
 
-### Connect with Me
+#### Connect with Me
 [Email](mailto:ben@perlmutter.io) / [Github](https://github.com/bpmutter) / [LinkedIn](https://www.linkedin.com/in/ben-perlmutter-a410228a/) / [Twitter](https://twitter.com/bpmutter)
 
 <div class="bitmoji-divider">
@@ -25,7 +25,7 @@ Learn more about my experience in <a href="/assets/ben-perlmutter-resume.pdf" ta
     <img src="/assets/img/01-bitmoji-neutral.png" class="bitmoji-divider__bitmoji">
 </div>
 
-## Beyond the Coding
+### Beyond the Coding
 <!-- --- -->
 When I'm not hunched in front of my computer coding (though that is most of my life these days), I like to read, practice yoga (which I actually started to compensate for the back pain that all the keyboard hunching was causing, and have grown to quite like it, but I digress...), hang out with my friends, and get off the beaten path.
 

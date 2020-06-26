@@ -17,7 +17,7 @@ Concurrently, I’d started studying a bit of front end development because it w
  
 I was apprehensive about taking the leap into an entirely new field. It’d basically be starting from zero in a new career, and that wasn’t a decision I wanted to take lightly, especially because I’d just gotten into the world of tech and marketing less than 2 years previously. 
  
-But in a hyper-cliched ¼-life crisis move, on the afternoon before my 25th birthday, I decided that I need to make a career change. I think that it was an inevitability, but the birthday provided he catylist that I needed to take the leap. 
+But in a hyper-cliched ¼-life crisis move, on the afternoon before my 25th birthday, I decided that I need to make a career change. I think that it was an inevitability, but the birthday provided the catylist that I needed to take the leap. 
  
 The week I got back from the Mexico, I told my job I was quitting by the end of the year, and I dove deeper into programming. I’d spend the mornings and weekends upping my programming chops with the [Odin Project](https://www.theodinproject.com/), and figuring out how I wanted to proceed with my studying. (I eventually decided that a bootcamp would be the best route for me, but that’s the subject for a different blog post.)
  

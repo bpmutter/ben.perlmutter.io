@@ -44,7 +44,7 @@ You can also give me a follow on my socio-professional media:
                 >RappaMappa</h3>
                 <p class="projects__project-info">Interactive map of world's most popular rap artists. </p>
                 <a class="projects__project-learn-more-btn title-font-family"
-                    href="/projects/2020/06/14/RappaMappa-Fullstack-MERN.html"
+                    href="/projects.html#rappamappa"
                 >
                     Learn More
                 </a>
@@ -56,7 +56,7 @@ You can also give me a follow on my socio-professional media:
                 <h3 class="projects__project-title">Tappdin</h3>
                 <p class="projects__project-info">Full-stack CRUD beer-tracking application.</p>
                 <a class="projects__project-learn-more-btn title-font-family"
-                    href="/projects/2020/05/24/tappdin-my-first-full-stack.html"
+                    href="/projects.html#tappdin"
                 >
                     Learn More
                 </a>
@@ -67,7 +67,7 @@ You can also give me a follow on my socio-professional media:
                 <h3 class="projects__project-title">ben.perlmutter.io</h3>
                 <p class="projects__project-info">Heavily-hacked Jekyll personal site. (this website)</p>
                 <a class="projects__project-learn-more-btn title-font-family"
-                    href="#"
+                    href="/projects.html#ben-perlmutter-io"
                 >
                     Learn More
                 </a>
