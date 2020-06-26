@@ -49,23 +49,26 @@
   * [ ] add as blog post
 
 ### projects page
-* [ ] create project section (template with one)
-* [ ] create project sections for ea. project 
+* [x] create project section (template with one)
+* [x] create project sections for ea. project 
   * [x] RappaMappa
   * [x] Tappdin
-  * [ ] ben.perlmutter.io (why not...meta)
+  * [x] ben.perlmutter.io (why not...meta)
 * [ ] create demo modal
   * [ ] modal -- i think from one of the pre a/A projects where i had a modal, that code could be copied 
   * [ ] load and play content 
   * [ ] maybe loading img w a bitmoji
 * [ ] create GIFs for various projects (i don't think it's necessary for all)
   * [ ] RappaMappa
+  * [ ] Tappdin
+  * [ ] ben.perlmutter.io
 
 ### bugs
 * [x] navbar bitmoji JS not working on blog post pages...
   * note: there's an error in the console where it messes up the relative path
-* [ ] the avocado head photo is massive (7 MB), which gives really slow load time 
+* [x] the avocado head photo is massive (7 MB), which gives really slow load time 
   * SLN: compress to 1MB or smthn like that
+* [ ] the project buttons have weird padding, with too little on the top, for mobile
 
 ## Complete
 

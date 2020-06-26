@@ -290,11 +290,13 @@ hr { border: none; height: 20px; width: 90%; height: 30px; margin-top: 0; border
 
 .project__img-wrapper { grid-column: 3/4; display: flex; align-items: center; justify-content: flex-start; flex-direction: column; text-align: center; font-size: 12px; }
 
-.project__img-wrapper p { margin-top: .5rem; margin-bottom: 0; }
+.project__img-wrapper p { margin-top: .5rem; margin-bottom: 0; position: relative; }
 
-.project__img { background-image: url(/assets/sad-icecream-ben.png); background-repeat: no-repeat; background-position: center; width: 225px; height: 175px; border-radius: .5rem; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); position: relative; margin: .5rem 0; cursor: pointer; }
+.project__img { background-image: url(/assets/sad-icecream-ben.png); background-repeat: no-repeat; background-position: center; width: 225px; height: 175px; border-radius: .5rem; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); position: relative; margin: .5rem 0; cursor: pointer; transition: width .5s linear, height .5s linear; }
 
 .project__img:hover { transform: scale(1.1); z-index: 2; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.project__demo--active:hover { transform: none; }
 
 .project__technologies-used { margin-bottom: .5rem; }
 
@@ -306,6 +308,19 @@ hr { border: none; height: 20px; width: 90%; height: 30px; margin-top: 0; border
 
 #ben-perlmutter-io-img { background-image: url(/assets/img/28-bitmoji-internet-love.png); }
 
+/* POP UP BOX */
+/* The Modal (background) */
+.pop-up { display: none; /* Hidden by default */ position: fixed; /* Stay in place */ z-index: 3; /* Sit on top */ left: 0; top: 0; width: 100%; /* Full width */ height: 100%; /* Full height */ overflow: auto; /* Enable scroll if needed */ background-color: black; /* Fallback color */ background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */ }
+
+/* Modal Content/Box */
+.pop-up-content { background-color: #fefefe; margin: 10% auto; width: 450px; height: 300px; border: 1px solid #888; border-radius: .5rem; }
+
+/* The Close Button */
+.close { color: #aaa; float: right; font-size: 28px; font-weight: bold; }
+
+.close:hover, .close:focus { color: black; text-decoration: none; cursor: pointer; }
+
+@media screen and (max-width: 400px) { .pop-up-content { width: auto; background-repeat: no-repeat; background-position: center; } }
 @media screen and (max-width: 400px) { #avocado-head, #ben-in-tienda, #bitmoji-header { width: 250px; height: 250px; }
   .blog-posts__list-icon { display: none; }
   .project__header { flex-direction: column; padding-bottom: 1rem; }
