@@ -76,7 +76,6 @@
 * [ ] on project modal, when click on image, the GIF clears
 * [ ] on project page, click anywhere in the project space loads modal...BAD!!!
 
-## Complete
 
 ## Looney Ideas 
 * By the numbers page that displays data from my github/other sources
