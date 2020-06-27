@@ -1,11 +1,13 @@
 let activeDemo = null;
 
 document.getElementById('projects').addEventListener( 'click', e =>{
-    activeDemoId = e.target.id
-    activeDemo = activeDemoId.slice(0, activeDemoId.length-4);
-    const myPopUp = document.querySelector('.pop-up-content');
-    myPopUp.style.backgroundImage = `url(/assets/img/${activeDemo}-demo-full.gif)`;
-    popUp();
+    if(e.target.classList.contains('project__img')){
+        activeDemoId = e.target.id;
+        activeDemo = activeDemoId.slice(0, activeDemoId.length - 4);
+        const myPopUp = document.querySelector(".pop-up-content");
+        myPopUp.style.backgroundImage = `url(/assets/img/${activeDemo}-demo-full.gif)`;
+        popUp();
+    }
 });
 
 document.addEventListener('click', e=>{

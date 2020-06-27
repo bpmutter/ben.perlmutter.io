@@ -11,6 +11,8 @@ But what makes software development such a rewarding *vocation* for me is that t
 
 So, without further ado or rambling preamble, here are a couple of the top technologies I want to learn and why I'd like to learn them. I'll try to update the list periodically reflecting new stuff I want to learn, and removing stuff that I have in fact learned. 
 
+<!--more-->
+
 ### Ruby on Rails 
 I like to build stuff. Programming is a creative outlet for me. From everything that I've read and many conversations I've had with other developers, Ruby on Rails is one of the best, if not the single best, framework for rapidly building a production-ready web application. 
 
