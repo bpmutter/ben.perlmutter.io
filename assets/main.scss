@@ -350,13 +350,16 @@
 
 /* Modal Content/Box */
 .pop-up-content {
-    background-color: #fefefe;
+    background-color: black;
     margin: 10% auto;
-    width: 450px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     border: 1px solid #888;
 
     border-radius: .5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /* The Close Button */
@@ -396,11 +399,13 @@
 
 //     }
 // }
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
     .pop-up-content{
         width: auto;
         background-repeat: no-repeat;
         background-position: center;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }
 @media screen and (max-width:400px){
@@ -415,6 +420,10 @@
     }
     .project__content{
         display: block;
+    }
+    .pop-up-content{
+        height: 300px;
+        margin-top: 20%;
     }
 
 }
