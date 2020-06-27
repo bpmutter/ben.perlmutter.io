@@ -11,6 +11,8 @@ I was in Mexico City on vacation. I’d decided to go to CDMX for my birthday be
  
 Plus, tacos al pastor, tequila, mesoamerican pyramids, mole, and more tacos al pastor. (Side note: I gained at least 5 pounds during my 2 weeks in Mexico.)
  
+<!--more-->
+
 At the time I was working remotely in a marketing and sales position for a Silicon Valley startup from Medellin, Colombia. For a variety of reasons, I felt I was outgrowing the position. I knew that I wanted a way out, regardless of what’d be coming next. 
  
 Concurrently, I’d started studying a bit of front end development because it was relevant to some projects for the company and a side project e-commerce store I was working on. I liked it. There was a ton to learn, instant gratification when you get something right, and lots of career opportunities when you get good at it. 

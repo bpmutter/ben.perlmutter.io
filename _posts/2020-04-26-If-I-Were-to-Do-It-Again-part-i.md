@@ -11,6 +11,8 @@ The other day, I was thinking upon my journey so far, what I’ve done right, an
 Overall, I’m pretty happy with the choices I’ve made and the direction I’ve gone, but there is always room for improvement. In another article some time soon, I'd like to discuss what those steps have been. 
  
 In this post, I wanted to take a moment to reflect on what, if I were to start from zero, I would do. I hope that this article can serve as guidance to anyone looking to get into the software development field. It can be daunting to start learning programming on your own. What language to start? What courses and resources to use? How much to practice?
+
+<!--more-->
  
 There is of course no right answer here, but if I were to start learning software development again, here is what I would do. 
  

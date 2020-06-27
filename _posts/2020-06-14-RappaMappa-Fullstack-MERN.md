@@ -3,7 +3,12 @@ layout: post
 title: "RappaMappa: Full-Stack MERN App"
 categories: projects
 ---
-*By Ben Perlmutter - [Visit RappaMappa](http://rappamappa.herokuapp.com/)*
+
+RappaMappa is a fullstack [MERN](https://www.geeksforgeeks.org/mern-stack/) app that lets the user explore where rappers have come from and access information about the artist. 
+
+Users can visually explore the map, which features 581 artists, and search for artists with the integrated search box. 
+
+<!--more-->
 
 **Table of Contents**
 * [RappaMappa at a Glance](#rappamappa-at-a-glance)
@@ -11,11 +16,6 @@ categories: projects
 * [Frontend Overview](#frontend-overview)
 * [Backend Overview](#backend-overview)
 * [Conclusion & Next Steps](#conclusion-and-next-steps)
-
-## RappaMappa at a Glance
-RappaMappa is a fullstack [MERN](https://www.geeksforgeeks.org/mern-stack/) app that lets the user explore where rappers have come from and access information about the artist. 
-
-Users can visually explore the map, which features 581 artists, and search for artists with the integrated search box. 
 
 ![RappaMappa at a glance](/assets/img/rappa-mappa-demo-1.gif)
 ##### RappaMappa at a glance

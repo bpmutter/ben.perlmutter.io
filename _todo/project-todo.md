@@ -4,7 +4,7 @@
 ## Pending
 
 ### Homepage
-* [ ] projects section
+* [x] projects section
   * [x] set up images for ea project with name overlayed 
   * [x] on hover, overlay with a bit of additional information accompanying the title 
   * [x] add JS event for click on img to show project info
@@ -54,14 +54,18 @@
   * [x] RappaMappa
   * [x] Tappdin
   * [x] ben.perlmutter.io (why not...meta)
-* [ ] create demo modal
-  * [ ] modal -- i think from one of the pre a/A projects where i had a modal, that code could be copied 
-  * [ ] load and play content 
+* [x] create demo modal
+  * [x] modal -- i think from one of the pre a/A projects where i had a modal, that code could be copied 
+  * [x] load and play content 
   * [ ] maybe loading img w a bitmoji
 * [ ] create GIFs for various projects (i don't think it's necessary for all)
-  * [ ] RappaMappa
-  * [ ] Tappdin
+  * [x] RappaMappa
+  * [x] Tappdin
   * [ ] ben.perlmutter.io
+* [ ] performance optimization for project GIF
+* [ ] redo the tappdin gif so no topbar
+* [ ] make RappaMappa gif repeat (maybe doesn't work b.c 2 gifs put together?)
+  * [ ] easiest fix is prob rerecord
 
 ### bugs
 * [x] navbar bitmoji JS not working on blog post pages...
@@ -69,6 +73,8 @@
 * [x] the avocado head photo is massive (7 MB), which gives really slow load time 
   * SLN: compress to 1MB or smthn like that
 * [ ] the project buttons have weird padding, with too little on the top, for mobile
+* [ ] on project modal, when click on image, the GIF clears
+* [ ] on project page, click anywhere in the project space loads modal...BAD!!!
 
 ## Complete
 
