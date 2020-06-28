@@ -17,6 +17,8 @@ Users can visually explore the map, which features 581 artists, and search for a
 * [Backend Overview](#backend-overview)
 * [Conclusion & Next Steps](#conclusion-and-next-steps)
 
+
+
 ![RappaMappa at a glance](/assets/img/rappa-mappa-demo-1.gif)
 ##### RappaMappa at a glance
 

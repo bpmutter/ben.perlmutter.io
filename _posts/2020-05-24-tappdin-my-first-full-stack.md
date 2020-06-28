@@ -5,9 +5,9 @@ categories: projects
 ---
 **NOTE**: The following document is an adapted from the project's Github README. The project was made in collaboration with [Johnny Bui](https://github.com/JBui923) (front-end lead) and [Giancarlo Sanchez](https://github.com/giancarlo-sanchez) (backend lead), and myself (project manager). The code for the project represents a collaborative effort of us three. 
 
-One of my responsibilities was creating the README file for the project, and my first foray into writing about my code for a public. It was more fun and less painful than I though it'd be. 
+<!-- One of my responsibilities was creating the README file for the project, and my first foray into writing about my code for a public. It was more fun and less painful than I though it'd be.  -->
 
-Below is an overview of the project, lightly adapted from the Github project README. 
+<!-- Below is an overview of the project, lightly adapted from the Github project README.  -->
 
 ## Tappdin At a Glance 
 Tappdin is a beer tracking app modeled on [Untappd](https://untappd.com/). It allows users to create accounts, post and delete checkins of beers, view the checkins of other users, and discover new beers. 
