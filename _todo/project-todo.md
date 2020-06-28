@@ -63,9 +63,9 @@
   * [x] Tappdin
   * [ ] ben.perlmutter.io
 * [ ] performance optimization for project GIF
-* [ ] redo the tappdin gif so no topbar
-* [ ] make RappaMappa gif repeat (maybe doesn't work b.c 2 gifs put together?)
-  * [ ] easiest fix is prob rerecord
+* [x] redo the tappdin gif so no topbar
+* [x] make RappaMappa gif repeat (maybe doesn't work b.c 2 gifs put together?)
+  * [x] easiest fix is prob rerecord -(afterfact: yes, this was easiest)
 
 ### bugs
 * [x] navbar bitmoji JS not working on blog post pages...
@@ -74,7 +74,8 @@
   * SLN: compress to 1MB or smthn like that
 * [ ] the project buttons have weird padding, with too little on the top, for mobile
 * [ ] on project modal, when click on image, the GIF clears
-* [ ] on project page, click anywhere in the project space loads modal...BAD!!!
+* [x] on project page, click anywhere in the project space loads modal...BAD!!!
+* [ ] on mobile, any page click --> popup opening ..this one is VERY weird
 
 
 ## Looney Ideas 

@@ -22,8 +22,8 @@ title: ben.perlmutter
 author: Ben Perlmutter
 primary_domain: ben.perlmutter.io ##ex, google.com, ben.perlmutter.io, etc. 
 email: ben@perlmutter.io
-description: >- # this means to ignore newlines until "baseurl:"
-  Programmer in development. 
+description: Programmer in development. 
+  #>- # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: https://ben.perlmutter.io/ # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bpmutter
