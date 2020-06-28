@@ -9,6 +9,7 @@
     width: 54px;
     position: relative; 
     bottom: 7px;
+    padding-right: 10px;
 }
 
 .homepage-title{
@@ -407,8 +408,16 @@
         margin-left: 2%;
         margin-right: 2%;
     }
+    .nav-bitmoji{
+        padding-right: 0;
+    }
+    
+    
 }
 @media screen and (max-width:400px){
+    .site-title {
+        font-size: 24px;
+    }
     #avocado-head, #ben-in-tienda, #bitmoji-header{
         width: 250px;
         height:250px;

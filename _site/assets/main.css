@@ -200,7 +200,7 @@ hr { border: none; height: 20px; width: 90%; height: 30px; margin-top: 0; border
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
-.nav-bitmoji { height: 54px; width: 54px; position: relative; bottom: 7px; }
+.nav-bitmoji { height: 54px; width: 54px; position: relative; bottom: 7px; padding-right: 10px; }
 
 .homepage-title { text-align: center; }
 
@@ -320,8 +320,10 @@ hr { border: none; height: 20px; width: 90%; height: 30px; margin-top: 0; border
 
 .close:hover, .close:focus { color: black; text-decoration: none; cursor: pointer; }
 
-@media screen and (max-width: 600px) { .pop-up-content { width: auto; background-repeat: no-repeat; background-position: center; margin-left: 2%; margin-right: 2%; } }
-@media screen and (max-width: 400px) { #avocado-head, #ben-in-tienda, #bitmoji-header { width: 250px; height: 250px; }
+@media screen and (max-width: 600px) { .pop-up-content { width: auto; background-repeat: no-repeat; background-position: center; margin-left: 2%; margin-right: 2%; }
+  .nav-bitmoji { padding-right: 0; } }
+@media screen and (max-width: 400px) { .site-title { font-size: 24px; }
+  #avocado-head, #ben-in-tienda, #bitmoji-header { width: 250px; height: 250px; }
   .blog-posts__list-icon { display: none; }
   .project__header { flex-direction: column; padding-bottom: 1rem; }
   .project__content { display: block; }
