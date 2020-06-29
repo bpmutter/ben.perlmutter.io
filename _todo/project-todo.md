@@ -10,7 +10,7 @@
   * [x] add JS event for click on img to show project info
   * [X] on click, links to the section of the [projects page](#projects-page)
     * [X] NOTE: checkout the CSS apperance prop to make lnk look like button: https://css-tricks.com/almanac/properties/a/appearance/
-  * [ ] live demo button taking to deployment
+  * [x] live demo button taking to deployment
 * [ ] technologies list
   * [x] fix up text for all (right now a lot of placeholder)
   * [ ] add MongoDB for backend techs

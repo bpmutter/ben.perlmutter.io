@@ -14,9 +14,11 @@ linkedin_username: ben-perlmutter-a410228a
 theme: minima
 plugins: 
   - jekyll-feed
+  - jekyll-seo-tag
 #blog stuff
 show_excerpts: true 
 excerpt_separator: <!--more-->
+  
 
 #google analytics
 google_analytics: UA-164663303-1
