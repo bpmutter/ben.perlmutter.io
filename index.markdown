@@ -19,7 +19,7 @@ layout: home
     </p>
 </div>
 
-Hi, I'm Ben Perlmutter, a full-stack software developer.
+Hi, I'm Ben Perlmutter, a full-stack software developer with experience in React, Express, Flask, MongoDB, Postgres, Javascript, Python, and more. 
 
 Welcome to my website. Here you can find my [blog](/blog.html), [my portfolio](https://github.com/bpmutter/), and some more information [about me](/about.html). You may also notice lots of Bitmojis that do silly things. Click around and try to find all the effects (or just [look at the codebase](https://github.com/bpmutter/ben.perlmutter.io)). 
 
@@ -43,11 +43,16 @@ You can also give me a follow on my socio-professional media:
                 <h3 class="projects__project-title"
                 >RappaMappa</h3>
                 <p class="projects__project-info">Interactive map of world's most popular rap artists. </p>
-                <a class="projects__project-learn-more-btn title-font-family"
-                    href="/projects.html#rappamappa"
-                >
+                <div class="projects__btns">
+                    <a class="projects__project-learn-more-btn title-font-family"
+                    href="/projects.html#rappamappa">
                     Learn More
-                </a>
+                    </a>
+                    <a class="projects__project-learn-more-btn title-font-family projects__demo-button"
+                        href="http://rappamappa.herokuapp.com/" target="_blank">
+                        Demo
+                    </a>
+                </div>
             </div>
         </div>
         <div class="projects__project-container" id="tappdin-img"
@@ -55,11 +60,21 @@ You can also give me a follow on my socio-professional media:
             <div class="projects__project-description projects__project-description--expand"> 
                 <h3 class="projects__project-title">Tappdin</h3>
                 <p class="projects__project-info">Full-stack CRUD beer-tracking application.</p>
-                <a class="projects__project-learn-more-btn title-font-family"
+                <div class="projects__btns">
+                    <a class="projects__project-learn-more-btn title-font-family"
+                    href="/projects.html#tappdin">
+                    Learn More
+                    </a>
+                    <a class="projects__project-learn-more-btn title-font-family projects__demo-button"
+                        href="http://tappdin.herokuapp.com/" target="_blank">
+                        Demo
+                    </a>
+                </div>
+                <!-- <a class="projects__project-learn-more-btn title-font-family"
                     href="/projects.html#tappdin"
                 >
                     Learn More
-                </a>
+                </a> -->
             </div>
         </div>
         <div class="projects__project-container" id="ben-perlmutter-io-img">
@@ -165,13 +180,13 @@ You can also give me a follow on my socio-professional media:
             <div class="technologies__description" id="flask-description">
                 <h4 class="technologies__header">Flask</h4>
                 <div class="technologies__description-content">
-                    <p>Flask is simple, but it gets the job done for spinning up simple but scalable web servers.</p>
+                    <p>I have build full-stack applications using a Flask backend of RESTful APIs and an Express frontend, in addition to being familiar with using Flask for server-side rendering with the built-in Jinja templating language.</p>
                 </div>
             </div>
             <div class="technologies__description" id="postgres-description">
                 <h4 class="technologies__header">Postgres</h4>
                 <div class="technologies__description-content">
-                    <p>Data persistence is important, and Postgres does that.</p>
+                    <p>I have experience building Postgres databases for Express applications with the Sequelize ORM and Flask applications using SQLAlchemy and Alembic.</p>
                 </div>
             </div>
         </div>
