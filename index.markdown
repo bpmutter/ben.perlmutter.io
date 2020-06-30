@@ -150,7 +150,7 @@ You can also give me a follow on my socio-professional media:
                 <div class="technologies__description" id="html-description">
                     <h4 class="technologies__header">HTML</h4>
                     <div class="technologies__description-content">
-                        <p>I'm pretty competent with HTML, and all its semantic tags. But, for everyone's sake, let's just write JSX! 😉</p>
+                        <p>I'm pretty competent with HTML, its semantic tags, and accessibility. But, for everyone's sake, let's just write JSX! 😉</p>
                     </div>
                 </div>
             </div>
