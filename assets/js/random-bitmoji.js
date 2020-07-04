@@ -5,7 +5,6 @@ export default function randomBitmoji(){
     if(document.querySelector(".h1-bitmoji")){
         document.querySelector(".h1-bitmoji").src = filePath;
     }
-
 }
 
 

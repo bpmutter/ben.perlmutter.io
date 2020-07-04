@@ -17,7 +17,7 @@ Prior to transitioning to the world of tech, I taught English in Seoul, South Ko
 Learn more about my experience in <a href="/assets/ben-perlmutter-resume.pdf" target="_blank" title="Ben Perlmutter resume">my resume</a>.
 
 #### Connect with Me
-[Email](mailto:ben@perlmutter.io) / [Github](https://github.com/bpmutter) / [LinkedIn](https://www.linkedin.com/in/ben-perlmutter-a410228a/) / [Twitter](https://twitter.com/bpmutter)
+[Email](mailto:ben@perlmutter.io){:target="_blank"} / [Github](https://github.com/bpmutter){:target="_blank"} / [LinkedIn](https://www.linkedin.com/in/ben-perlmutter-a410228a/){:target="_blank"} / [Twitter](https://twitter.com/bpmutter){:target="_blank"}
 
 <div class="bitmoji-divider">
     <img src="/assets/img/01-bitmoji-neutral.png" class="bitmoji-divider__bitmoji">
@@ -26,7 +26,6 @@ Learn more about my experience in <a href="/assets/ben-perlmutter-resume.pdf" ta
 </div>
 
 ### Beyond the Coding
-<!-- --- -->
 When I'm not hunched in front of my computer coding (though that is most of my life these days), I like to read, practice yoga (which I actually started to compensate for the back pain that all the keyboard hunching was causing, and have grown to quite like it, but I digress...), hang out with my friends, and get off the beaten path.
 
 I'm also a passionate traveler and devoted believer in remote work. Currently, I'm based in Medellin, Colombia where I enjoy  avocados the size of my head (see below), the year-round perfect weather, practicing Spanish, and plugging away at my keyboard at the city's many cafes which serve the world's best coffee (a strong statement that I stand firmly by).

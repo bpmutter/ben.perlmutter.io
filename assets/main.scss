@@ -381,28 +381,6 @@
     cursor: pointer;
 }
 
-// @media screen and (min-width: 501px){
-//     .project__demo--active {
-//         width: 480px;
-//         height: 300px;
-//         position: fixed;
-//         top: 100px;
-//         right: 50%;
-//         margin-right: -240px;
-//         z-index: 2;
-//         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-//         background-image: url(/assets/sad-icecream-ben.png);
-
-//     }
-// }
-// @media screen and (max-width: 500px){
-//     .project__demo--active {
-//         transform: scale(1.25);
-//         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-//         background-image: url(/assets/sad-icecream-ben.png);
-
-//     }
-// }
 @media screen and (max-width:600px) {
     .pop-up-content{
         width: auto;
@@ -413,9 +391,7 @@
     }
     .nav-bitmoji{
         padding-right: 0;
-    }
-    
-    
+    }   
 }
 @media screen and (max-width:400px){
     .site-title {
@@ -437,7 +413,6 @@
         height: 300px;
         margin-top: 20%;
     }
-
 }
     
     

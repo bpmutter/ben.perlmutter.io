@@ -1,4 +1,8 @@
-# ben.perlmutter.io
+---
+layout: post
+title: 'An Overview of ben.perlmutter.io '
+---
+
 My personal website - *April 2020 — ongoing*
 
 (ben.perlmutter.io)[https://ben.perlmutter.io/] is a Jekyll site deployed onto Github Pages. It features information about me, the projects I'm working on, and my blog. 
@@ -107,3 +111,4 @@ But like with every software project, there is more that could be done. A couple
 If you'd like to view more about my planned next steps, you can checkout the [project todo list](https://github.com/bpmutter/ben.perlmutter.io/blob/master/_todo/project-todo.md). 
 
 Thanks for reading! ✌🏼
+
