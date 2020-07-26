@@ -12,8 +12,9 @@
     * [X] NOTE: checkout the CSS apperance prop to make lnk look like button: https://css-tricks.com/almanac/properties/a/appearance/
   * [x] live demo button taking to deployment
 * [ ] technologies list
-  * [x] fix up text for all (right now a lot of placeholder)
   * [ ] add MongoDB for backend techs
+  * [ ] add firebase for backend techs 
+  * [x] fix up text for all (right now a lot of placeholder)
   * [x] update flask section now that i have some more flask experience
   * [x] in the Postgres section, add Sequelize and SQLAlchemy  
 * [ ] soft skills sections
@@ -29,8 +30,8 @@
   * [x] mobile: make 'ben.perlmutter' bit smaller/more left aligned
 
 ### SEO 
-* [ ] add the relevant metadata
-  * [ ] include the good thumbnail
+* [x] add the relevant metadata
+  * [x] include the good thumbnail
 * [ ] research other optimizations
 
 ### blog posts 
@@ -55,6 +56,12 @@
   * [ ] add as blog post
 
 ### projects page
+* [ ] create GIFs for various projects (i don't think it's necessary for all)
+  * [ ] aCasa
+  * [ ] ben.perlmutter.io
+  * [x] RappaMappa
+  * [x] Tappdin
+  * [x] StarTrader
 * [x] create project section (template with one)
 * [x] create project sections for ea. project 
   * [x] RappaMappa
@@ -64,10 +71,6 @@
   * [x] modal -- i think from one of the pre a/A projects where i had a modal, that code could be copied 
   * [x] load and play content 
   * [ ] maybe loading img w a bitmoji
-* [ ] create GIFs for various projects (i don't think it's necessary for all)
-  * [x] RappaMappa
-  * [x] Tappdin
-  * [ ] ben.perlmutter.io
 * [ ] performance optimization for project GIF
 * [x] redo the tappdin gif so no topbar
 * [x] make RappaMappa gif repeat (maybe doesn't work b.c 2 gifs put together?)
