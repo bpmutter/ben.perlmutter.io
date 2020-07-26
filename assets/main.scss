@@ -131,6 +131,10 @@
 .projects__demo-button{
     width: 25%;
 }
+.projects__more-projects {
+    padding: '.5em 1em .5em';   
+    text-align: 'center'
+}
 .technologies__container{
     display: flex;
     flex-direction: row;
@@ -315,6 +319,14 @@
     // border-radius: .3rem;
     padding: .5rem 0 .5rem .5rem;
     margin: 0 .2rem .5rem;
+}
+#acasa-img{
+    background-image: url(/assets/img/acasa-thumbnail.png);
+    background-size: 225px 225px;
+}
+#star-trader-img{
+   background-image: url(/assets/img/star-trader-thumbnail.png);
+   background-size: 225px 225px;
 }
 
 #rappa-mappa-img {

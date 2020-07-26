@@ -242,6 +242,8 @@ hr { border: none; height: 20px; width: 90%; height: 30px; margin-top: 0; border
 
 .projects__demo-button { width: 25%; }
 
+.projects__more-projects { padding: '.5em 1em .5em'; text-align: "center"; }
+
 .technologies__container { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly; }
 
 .technologies__title { padding-top: 1rem; }
@@ -303,6 +305,10 @@ hr { border: none; height: 20px; width: 90%; height: 30px; margin-top: 0; border
 .project__technologies-used { margin-bottom: .5rem; }
 
 .project__technology { display: inline-block; font-size: 14px; border-left: 1px solid #d3d3d3; padding: .5rem 0 .5rem .5rem; margin: 0 .2rem .5rem; }
+
+#acasa-img { background-image: url(/assets/img/acasa-thumbnail.png); background-size: 225px 225px; }
+
+#star-trader-img { background-image: url(/assets/img/star-trader-thumbnail.png); background-size: 225px 225px; }
 
 #rappa-mappa-img { background-image: url(/assets/img/rappa-mappa-thumbnail.png); }
 

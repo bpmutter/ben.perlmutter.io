@@ -7,7 +7,7 @@ My single favorite thing about software development is the constant learning. An
 
 For instance, if I read some book about the evolution of the American political economy, I can sound nice at a cocktail party, which is cool, I guess. (Though I don't know if I've actually ever been to a cocktail party...) But the utility of that knowledge basically stops there. Now that's not me knocking learning for the sake of learning, and I will read that book about the American political economy. 
 
-But what makes software development such a rewarding *vocation* for me is that this is rarely the case. When you learn a new skill, you can put it to use. And, not only that, someone might pay you a bunch of money to put it to use! 
+But what makes software development such a rewarding *vocation* for me is that this is rarely the case. When you learn a new skill, you can put it to use. And, not only that, someone might pay you a bunch of money to do it! 
 
 So, without further ado or rambling preamble, here are a couple of the top technologies I want to learn and why I'd like to learn them. I'll try to update the list periodically reflecting new stuff I want to learn, and removing stuff that I have in fact learned. 
 

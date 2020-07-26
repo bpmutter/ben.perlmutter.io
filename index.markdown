@@ -37,6 +37,42 @@ You can also give me a follow on my socio-professional media:
 <section class="projects">
     <h2>Projects</h2>
     <div class="projects__container">
+        <div class="projects__project-container" id="acasa-img">
+            <div class="projects__project-description projects__project-description--expand"
+            > 
+                <h3 class="projects__project-title"
+                >aCasa</h3>
+                <p class="projects__project-info">Medium-term furnished rental platform. </p>
+                <div class="projects__btns">
+                    <a class="projects__project-learn-more-btn title-font-family"
+                    href="/projects.html#acasa">
+                    Learn More
+                    </a>
+                    <a class="projects__project-learn-more-btn title-font-family projects__demo-button"
+                        href="https://acasa-bd3af.web.app/" target="_blank">
+                        Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="projects__project-container" id="star-trader-img">
+            <div class="projects__project-description projects__project-description--expand"
+            > 
+                <h3 class="projects__project-title"
+                >StarTrader</h3>
+                <p class="projects__project-info">Starship trading platform for Star Wars galaxy. </p>
+                <div class="projects__btns">
+                    <a class="projects__project-learn-more-btn title-font-family"
+                    href="/projects.html#startrader">
+                    Learn More
+                    </a>
+                    <a class="projects__project-learn-more-btn title-font-family projects__demo-button"
+                        href="http://startrader-app.herokuapp.com/" target="_blank">
+                        Demo
+                    </a>
+                </div>
+            </div>
+        </div>
         <div class="projects__project-container" id="rappa-mappa-img">
             <div class="projects__project-description projects__project-description--expand"
             > 
@@ -55,7 +91,7 @@ You can also give me a follow on my socio-professional media:
                 </div>
             </div>
         </div>
-        <div class="projects__project-container" id="tappdin-img"
+        <!-- <div class="projects__project-container" id="tappdin-img"
         >
             <div class="projects__project-description projects__project-description--expand"> 
                 <h3 class="projects__project-title">Tappdin</h3>
@@ -71,8 +107,8 @@ You can also give me a follow on my socio-professional media:
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="projects__project-container" id="ben-perlmutter-io-img">
+        </div> -->
+        <!-- <div class="projects__project-container" id="ben-perlmutter-io-img">
             <div class="projects__project-description projects__project-description--expand"> 
                 <h3 class="projects__project-title">ben.perlmutter.io</h3>
                 <p class="projects__project-info">Heavily-hacked Jekyll personal site. (this website)</p>
@@ -81,13 +117,13 @@ You can also give me a follow on my socio-professional media:
                     href="/projects.html#ben.perlmutter.io">
                     Learn More
                     </a>
-                    <!-- <a class="projects__project-learn-more-btn title-font-family projects__demo-button"
-                        href="http://tappdin.herokuapp.com/" target="_blank">
-                        Demo
-                    </a> -->
                 </div>
             </div>
-        </div>
+        </div> -->
+    </div>
+    <div class="projects__more-projects" style="text-align: center">
+        <br>
+        <b><a href="/projects">More Projects</a></b>
     </div>
 </section>
 
