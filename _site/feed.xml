@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-14T11:42:46-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ben.perlmutter</title><subtitle>Programmer in development.</subtitle><author><name>Ben Perlmutter</name></author><entry><title type="html">aCasa Medium-Term Home Rentals</title><link href="http://localhost:4000/projects/2020/08/12/acasa-medium-term-rental-platform.html" rel="alternate" type="text/html" title="aCasa Medium-Term Home Rentals" /><published>2020-08-12T00:00:00-05:00</published><updated>2020-08-12T00:00:00-05:00</updated><id>http://localhost:4000/projects/2020/08/12/acasa-medium-term-rental-platform</id><content type="html" xml:base="http://localhost:4000/projects/2020/08/12/acasa-medium-term-rental-platform.html">&lt;h1 id=&quot;acasa&quot;&gt;aCasa&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;Created by &lt;a href=&quot;https://ben.perlmutter.io&quot; target=&quot;_blank&quot;&gt;Ben Perlmutter&lt;/a&gt; - &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;acasa-bd3af.web.app&quot;&gt;Live Site&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-14T11:48:45-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ben.perlmutter</title><subtitle>Programmer in development.</subtitle><author><name>Ben Perlmutter</name></author><entry><title type="html">aCasa Medium-Term Home Rentals</title><link href="http://localhost:4000/projects/2020/08/12/acasa-medium-term-rental-platform.html" rel="alternate" type="text/html" title="aCasa Medium-Term Home Rentals" /><published>2020-08-12T00:00:00-05:00</published><updated>2020-08-12T00:00:00-05:00</updated><id>http://localhost:4000/projects/2020/08/12/acasa-medium-term-rental-platform</id><content type="html" xml:base="http://localhost:4000/projects/2020/08/12/acasa-medium-term-rental-platform.html">&lt;p&gt;&lt;em&gt;Created by &lt;a href=&quot;https://ben.perlmutter.io&quot; target=&quot;_blank&quot;&gt;Ben Perlmutter&lt;/a&gt; - &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;acasa-bd3af.web.app&quot;&gt;Live Site&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h4&gt;
 &lt;ul&gt;
@@ -143,7 +142,92 @@
   &lt;li&gt;&lt;strong&gt;More Database rules&lt;/strong&gt;: Right now the database is secured such that a user cannot corrupt another user’s data. They can however create some real chaos for their own account. This isn’t a real problem now, when there is no billing and the application is a prototype, but more rules need to be added to make this a marketable product.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Like any tech product, there is of course much, much more that I could add, but these are the main elements that I’d like to start with.&lt;/p&gt;</content><author><name>Ben Perlmutter</name></author><summary type="html">aCasa Created by Ben Perlmutter - Live Site Table of Contents Non-Technical Overview Technical Overview Frontend Backend Conclusion Non-Technical Overview aCasa is a platform for medium term furnished rentals. It’s designed for when you’re staying somewhere than a month, but you’re not ready (or able) to find a real lease. Listings contain relevant info for medium-term stays that’d be less relevant for a short stay like WiFi speed, if there are roommates, LGBTQ+ friendliness and more. And because you probably want to talk directly with the person renting the home if you’re staying for an extended period, aCasa provides you with the renter’s contact information. This contrasts with the managed booking process that other services like Airbnb provide.</summary></entry><entry><title type="html">An Overview of ben.perlmutter.io</title><link href="http://localhost:4000/2020/07/04/ben-perlmutter-io.html" rel="alternate" type="text/html" title="An Overview of ben.perlmutter.io " /><published>2020-07-04T00:00:00-05:00</published><updated>2020-07-04T00:00:00-05:00</updated><id>http://localhost:4000/2020/07/04/ben-perlmutter-io</id><content type="html" xml:base="http://localhost:4000/2020/07/04/ben-perlmutter-io.html">&lt;p&gt;My personal website - &lt;em&gt;April 2020 — ongoing&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Like any tech product, there is of course much, much more that I could add, but these are the main elements that I’d like to start with.&lt;/p&gt;</content><author><name>Ben Perlmutter</name></author><summary type="html">Created by Ben Perlmutter - Live Site Table of Contents Non-Technical Overview Technical Overview Frontend Backend Conclusion Non-Technical Overview aCasa is a platform for medium term furnished rentals. It’s designed for when you’re staying somewhere than a month, but you’re not ready (or able) to find a real lease. Listings contain relevant info for medium-term stays that’d be less relevant for a short stay like WiFi speed, if there are roommates, LGBTQ+ friendliness and more. And because you probably want to talk directly with the person renting the home if you’re staying for an extended period, aCasa provides you with the renter’s contact information. This contrasts with the managed booking process that other services like Airbnb provide.</summary></entry><entry><title type="html">StarTrader: The galatic starship trading platform</title><link href="http://localhost:4000/projects/2020/08/01/startrader-galactic-starship-trader.html" rel="alternate" type="text/html" title="StarTrader: The galatic starship trading platform" /><published>2020-08-01T00:00:00-05:00</published><updated>2020-08-01T00:00:00-05:00</updated><id>http://localhost:4000/projects/2020/08/01/startrader-galactic-starship-trader</id><content type="html" xml:base="http://localhost:4000/projects/2020/08/01/startrader-galactic-starship-trader.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;http://ben.perlmutter.io/&quot;&gt;(Darth) Ben Perlmutter&lt;/a&gt; and &lt;a href=&quot;https://github.com/bradsimpson213&quot;&gt;Brad (Kenobi) Simpson&lt;/a&gt; - &lt;a href=&quot;https://startrader-app.herokuapp.com/&quot;&gt;Live site&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A long time ago in a galaxy far, far away…They needed a platform to sell used starships.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#startrader-at-a-glance&quot;&gt;StarTrader at a Glance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#technologies-used&quot;&gt;Technologies Used&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#application-architecture&quot;&gt;Application Architecture&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#frontend-overview&quot;&gt;Frontend Overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#backend-overview&quot;&gt;Backend Overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;startrader-at-a-glance&quot;&gt;StarTrader at a Glance&lt;/h2&gt;
+&lt;p&gt;StarTrader is a full stack starship trading application for the Star Wars universe. Users can buy and sell their favorite starships from Star Wars. You can buy the Millennium Falcon from Han Solo, the Death Star from Admiral Tarkin, and more!&lt;/p&gt;
+
+&lt;p&gt;The application is made with a React frontend and the Arwes sci-fi UI library. The backend is a Flask server with a Postgres database.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Features&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Create new users and have user login with authorization&lt;/li&gt;
+  &lt;li&gt;Buy and sell starships (include unique special ships)&lt;/li&gt;
+  &lt;li&gt;Post new starships for sale (only basic not unique)&lt;/li&gt;
+  &lt;li&gt;Search for starships by starship class  in the interface bar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/star-trader-demo-full.gif&quot; alt=&quot;StarTrader mini-demo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;technologies-used&quot;&gt;Technologies Used&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Frontend
+    &lt;ul&gt;
+      &lt;li&gt;React&lt;/li&gt;
+      &lt;li&gt;Javascript&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://arwes.dev/&quot;&gt;Awres&lt;/a&gt; sci-fi UI framework&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Backend
+    &lt;ul&gt;
+      &lt;li&gt;Flask&lt;/li&gt;
+      &lt;li&gt;Python&lt;/li&gt;
+      &lt;li&gt;Postgres&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://swapi.dev/&quot;&gt;SWAPI dataset&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Heroku deployment&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;application-architecture&quot;&gt;Application Architecture&lt;/h2&gt;
+&lt;p&gt;The frontend is a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create-react-app&lt;/code&gt; deployed to its own Heroku server and the backend deployed to a separate Heroku server. The two servers communicate with each other through RESTful APIs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/startrader-architecture.png&quot; alt=&quot;application architecture&quot; /&gt;&lt;/p&gt;
+&lt;h5 id=&quot;overview-of-application-architecture&quot;&gt;Overview of application architecture&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/star-trader-schema.png&quot; alt=&quot;Database schema&quot; /&gt;&lt;/p&gt;
+&lt;h5 id=&quot;startrader-postgres-database-schema&quot;&gt;StarTrader Postgres database schema&lt;/h5&gt;
+
+&lt;h2 id=&quot;frontend-overview&quot;&gt;Frontend Overview&lt;/h2&gt;
+&lt;p&gt;The React frontend is built based off of the Arwes sci-fi UI library. Arwes provides a set of components that give the website a sci-fi look and feel appropriate for the Star Wars theme.&lt;/p&gt;
+
+&lt;p&gt;Arwes was absolutely invaluable in providing the core building blocks for the UI. However, it has a fairly minimal component set, missing certain core functional components like modals and inputs. The presented the design challenge of envisioning and creating these essential components while remaining true to the existing Awres framework.&lt;/p&gt;
+
+&lt;p&gt;Styling was handled using the JSS tool to write CSS in JavaScript. The application is fully mobile responsive.&lt;/p&gt;
+
+&lt;p&gt;Here’s an example of the modal component used to edit the profile account, which is made fully of custom components but  emulates the existing Arwes framework.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/startrader-edit-account-modal.png&quot; alt=&quot;Edit Listing Modal&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;backend-overview&quot;&gt;Backend Overview&lt;/h2&gt;
+&lt;p&gt;The Flask backend is a collection of RESTful routes serving data to the frontend and an interface with the Postgres database.&lt;/p&gt;
+
+&lt;p&gt;The database is queried using the SQLAlchemy ORM, and seed data was added using the Alembic library. The seed data was of particular importance to this application because we wanted to include a lot of Star Wars related data.&lt;/p&gt;
+
+&lt;p&gt;The data was provided via the Star Wars API (SWAPI) data. We used the data to create the models for adding listings and to create users based on the Star Wars films’ characters.&lt;/p&gt;
+
+&lt;p&gt;Images were hosted in an Amazon S3 container.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;StarTrader was a ton of fun to make because we both (Ben and Brad), are big Star Wars fans.&lt;/p&gt;
+
+&lt;p&gt;We think it turned out pretty good. We hit all of the features we wanted to hit, and didn’t encounter any serious blockers throughout the development process. We learned a lot about both front and backend.&lt;/p&gt;
+
+&lt;p&gt;The force was with us on this project.&lt;/p&gt;</content><author><name>Ben Perlmutter</name></author><summary type="html">By (Darth) Ben Perlmutter and Brad (Kenobi) Simpson - Live site A long time ago in a galaxy far, far away…They needed a platform to sell used starships. Table of Contents StarTrader at a Glance Technologies Used Application Architecture Frontend Overview Backend Overview Conclusion StarTrader at a Glance StarTrader is a full stack starship trading application for the Star Wars universe. Users can buy and sell their favorite starships from Star Wars. You can buy the Millennium Falcon from Han Solo, the Death Star from Admiral Tarkin, and more! The application is made with a React frontend and the Arwes sci-fi UI library. The backend is a Flask server with a Postgres database.</summary></entry><entry><title type="html">An Overview of ben.perlmutter.io</title><link href="http://localhost:4000/2020/07/04/ben-perlmutter-io.html" rel="alternate" type="text/html" title="An Overview of ben.perlmutter.io " /><published>2020-07-04T00:00:00-05:00</published><updated>2020-07-04T00:00:00-05:00</updated><id>http://localhost:4000/2020/07/04/ben-perlmutter-io</id><content type="html" xml:base="http://localhost:4000/2020/07/04/ben-perlmutter-io.html">&lt;p&gt;My personal website - &lt;em&gt;April 2020 — ongoing&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;This website, &lt;a href=&quot;http://ben.perlmutter.io/&quot;&gt;ben.perlmutter.io&lt;/a&gt;, is a Jekyll site deployed onto Github Pages. It features information about me, the projects I’m working on, and my blog.&lt;/p&gt;
 

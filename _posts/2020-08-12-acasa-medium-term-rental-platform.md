@@ -3,7 +3,6 @@ layout: post
 title: 'aCasa Medium-Term Home Rentals'
 categories: projects
 ---
-# aCasa 
 *Created by <a href="https://ben.perlmutter.io" target="_blank">Ben Perlmutter</a> - **<a target="_blank" href="acasa-bd3af.web.app">Live Site</a>***
 
 #### Table of Contents
