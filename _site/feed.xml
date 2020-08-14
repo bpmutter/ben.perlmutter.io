@@ -1,4 +1,149 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-08T15:18:37-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ben.perlmutter</title><subtitle>Programmer in development.</subtitle><author><name>Ben Perlmutter</name></author><entry><title type="html">An Overview of ben.perlmutter.io</title><link href="http://localhost:4000/2020/07/04/ben-perlmutter-io.html" rel="alternate" type="text/html" title="An Overview of ben.perlmutter.io " /><published>2020-07-04T00:00:00-05:00</published><updated>2020-07-04T00:00:00-05:00</updated><id>http://localhost:4000/2020/07/04/ben-perlmutter-io</id><content type="html" xml:base="http://localhost:4000/2020/07/04/ben-perlmutter-io.html">&lt;p&gt;My personal website - &lt;em&gt;April 2020 — ongoing&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-14T11:42:46-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ben.perlmutter</title><subtitle>Programmer in development.</subtitle><author><name>Ben Perlmutter</name></author><entry><title type="html">aCasa Medium-Term Home Rentals</title><link href="http://localhost:4000/projects/2020/08/12/acasa-medium-term-rental-platform.html" rel="alternate" type="text/html" title="aCasa Medium-Term Home Rentals" /><published>2020-08-12T00:00:00-05:00</published><updated>2020-08-12T00:00:00-05:00</updated><id>http://localhost:4000/projects/2020/08/12/acasa-medium-term-rental-platform</id><content type="html" xml:base="http://localhost:4000/projects/2020/08/12/acasa-medium-term-rental-platform.html">&lt;h1 id=&quot;acasa&quot;&gt;aCasa&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Created by &lt;a href=&quot;https://ben.perlmutter.io&quot; target=&quot;_blank&quot;&gt;Ben Perlmutter&lt;/a&gt; - &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;acasa-bd3af.web.app&quot;&gt;Live Site&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#non-technical-overview&quot;&gt;Non-Technical Overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#technical-overview&quot;&gt;Technical Overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#frontend&quot;&gt;Frontend&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#backend&quot;&gt;Backend&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;non-technical-overview&quot;&gt;Non-Technical Overview&lt;/h2&gt;
+&lt;p&gt;aCasa is a platform for medium term furnished rentals. It’s designed for when you’re staying somewhere than a month, but you’re not ready (or able) to find a real lease.&lt;/p&gt;
+
+&lt;p&gt;Listings contain relevant info for medium-term stays that’d be less relevant for a short stay like WiFi speed, if there are roommates, LGBTQ+ friendliness and more.&lt;/p&gt;
+
+&lt;p&gt;And because you probably want to talk directly with the person renting the home if you’re staying for an extended period, aCasa provides you with the renter’s contact information. This contrasts with the managed booking process that other services like Airbnb provide.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h4 id=&quot;core-features&quot;&gt;Core Features:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Create, edit, and delete listings&lt;/li&gt;
+  &lt;li&gt;Create, edit, and delete user account&lt;/li&gt;
+  &lt;li&gt;Listing pages with listing information and host contact info&lt;/li&gt;
+  &lt;li&gt;User pages with personal info, user’s listings and contact info&lt;/li&gt;
+  &lt;li&gt;Location-based listing search&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;technical-overview&quot;&gt;Technical Overview&lt;/h2&gt;
+&lt;p&gt;While aCasa is primarily a portfolio piece (the source code is &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/bpmutter/acasa&quot;&gt;freely available on Github&lt;/a&gt; after all), my general technical approach to this project was tackling it like I was making the MVP of a startup.&lt;/p&gt;
+
+&lt;p&gt;With this MVP mindset, I focused on the following considerations:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Design elegant UX without having a designer by leveraging open source UI libraries&lt;/li&gt;
+  &lt;li&gt;Create scalable backend that could carry the application in it’s current form until it would get enough revenue to hire a backend engineering team&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In the end, I used a React frontend and &lt;a target=&quot;_blank&quot; href=&quot;http://firebase.google.com/&quot;&gt;Firebase&lt;/a&gt; serverless backend to accomplish these goals. I elaborate on how I addressed these concerns in the following &lt;a href=&quot;#frontend&quot;&gt;Frontend&lt;/a&gt; and &lt;a href=&quot;#backend&quot;&gt;Backend&lt;/a&gt; sections.&lt;/p&gt;
+
+&lt;h4 id=&quot;technologies-used-at-a-glance&quot;&gt;Technologies Used at a Glance:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;React&lt;/strong&gt;: Frontend built using React in a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create-react-app&lt;/code&gt; application.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Material UI&lt;/strong&gt;: UI frame used for app design and functional components.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Firebase&lt;/strong&gt;: Firebase serverless backend with Firestore DB (noSQL), Firestore media hosting, Authorization, and Hosting.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Google Maps Platform&lt;/strong&gt;: aCasa uses the Places, Autocomplete and Geolocation APIs of the Google Maps Platform to allow location-based querying and&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;OAuth&lt;/strong&gt;: aCasa uses Firebase’s built-in auth capabilities to integrate with OAuth providers Google and Facebook, with more to come.&lt;/li&gt;
+  &lt;li&gt;A variety of other npm modules were used throughout the project. To name a few: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;date-fns&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;p-iteration&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lodash&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uuid&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;query-string&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;react-helmet&lt;/code&gt;, and more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;frontend&quot;&gt;Frontend&lt;/h3&gt;
+&lt;p&gt;To address the first point of creating an elegant design at low cost (time-wise and financially), I utilized the &lt;a target=&quot;_blank&quot; href=&quot;https://material-ui.com&quot;&gt;Material UI&lt;/a&gt; React component library. I also featured &lt;a target=&quot;_blank&quot; href=&quot;https://undraw.co/&quot;&gt;unDraw&lt;/a&gt; vector art throughout the site to give it a consistent visual language.&lt;/p&gt;
+
+&lt;p&gt;The frontend is a fairly straightforward React application made using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create-react-app&lt;/code&gt;. I leveraged the Material UI library as much as possible to streamline the development, so I could focus more on the functionality and less on how it looks—while also keeping it quite good looking.&lt;/p&gt;
+
+&lt;h6 id=&quot;the-homepage-encapsulates-the-material-uiundraw-ux-of-of-acasa&quot;&gt;The homepage encapsulates the Material UI/unDraw UX of of aCasa&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/acasa-homepage.png&quot; alt=&quot;aCasa homepage&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;styling&quot;&gt;Styling&lt;/h4&gt;
+&lt;p&gt;For styling, I made extensive use of the the Material UI &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;makeStyles&lt;/code&gt; function and it’s built in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;theme&lt;/code&gt; object to create all the styles. This provides some pretty interesting functionality, like the ability to change the theme colors for the entire site with one line of code in the config file and dynamic resizing of elements based on screen size.&lt;/p&gt;
+
+&lt;h6 id=&quot;example-usage-of-makestyles-and-theme-to-dynamically-render-theming&quot;&gt;Example usage of makeStyles and theme to dynamically render theming&lt;/h6&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//located in /src/components/ProfileSettings.jsx&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;useStyles&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;makeStyles&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;fontFamily&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;typography&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;special&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;palette&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;primary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;marginBottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;spacing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h4 id=&quot;forms&quot;&gt;Forms&lt;/h4&gt;
+&lt;p&gt;Creating forms was by far the most time intensive part of this project. The forms are both particularly complicated, with a variety of different input types and quite long. The create/update listing forms have over 20 different fields! Material UI provides some awesome components from a standard input, to select-multi and autocomplete. But still wiring all of these up to the application in a modular manner took a significant amount of the project time.&lt;/p&gt;
+
+&lt;p&gt;I’d estimate that creating the ‘create listing’ and all it’s component inputs (which were then recycled throughout the site) took approximately 24 hours of coding time.&lt;/p&gt;
+
+&lt;h6 id=&quot;just-a-few-of-the-many-form-fields-on-the-add-listing-page&quot;&gt;Just a few of the many form fields on the add listing page&lt;/h6&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/acasa-add-listing-form.png&quot; alt=&quot;add listing form fields&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;By their nature, creating big forms takes time, but I think the process could have been streamlined by using some 3rd-party React form library like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;react-form&lt;/code&gt;. In my next project I plan to implement a library like this from the get go.&lt;/p&gt;
+
+&lt;h4 id=&quot;firebase-integration&quot;&gt;Firebase Integration&lt;/h4&gt;
+&lt;p&gt;As this is a serverless application, all the code lives within the client. To keep the application maintainable and testable, I made sure to separate that logic as much as I was able to, keeping all Firebase related things in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/src/config&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/src/queries&lt;/code&gt; folders.&lt;/p&gt;
+
+&lt;h4 id=&quot;state-management&quot;&gt;State Management&lt;/h4&gt;
+&lt;p&gt;aCasa uses React Context to manage state. There wasn’t much application-level state to manage, primarily just if the user is logged in and who they are. This light-weight state  needs lent itself well to the simplicity of React Context as a state management tool.&lt;/p&gt;
+
+&lt;h6 id=&quot;in-the-application-context-function-to-get-user-from-firebase-auth-set-user-in-application-state-and-store-user-in-local-storage-for-when-they-return-to-site&quot;&gt;In the application context, function to get user from Firebase auth, set user in application state, and store user in local storage for when they return to site.&lt;/h6&gt;
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// located in /src/components/AppWithContext.js&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;logIn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;user&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;loginFirebase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;setUser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;setLoggedIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;localStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setItem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;loggedIn&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;backend&quot;&gt;Backend&lt;/h3&gt;
+&lt;p&gt;To create a scalable backend for the application, I chose to use the Firebase serverless platform.&lt;/p&gt;
+
+&lt;h4 id=&quot;why-firebase&quot;&gt;Why Firebase?&lt;/h4&gt;
+&lt;p&gt;I would just like to disclaim that when I say Firebase is ‘scalable’, I know that its scalability has limits. But based on research, an application running Firebase is performant up to about 100,000 concurrent users makes DB requests. While this makes Firebase not an appropriate solution for enterprise applications, it’s a good starting point for a startup. And as mentioned above, I went into this project with the mindset of creating a startup MVP.&lt;/p&gt;
+
+&lt;p&gt;I also used Firebase with the idea that it’d be quicker than setting up a backend, allowing me to focus more on making an awesome frontend. On this count, I was a little overly optimistic about Firebase’s ease of use. The documentation is really amazing for getting started, but falls off in detail fairly quickly, making certain fairly straight-forward operations, like bulk uploading images or setting up database rules, harder to figure out than they quite frankly should be. With that being said, at the end of the day, I don’t think using Firebase took any longer than making y own backend would have taken.&lt;/p&gt;
+
+&lt;p&gt;Given Firebase’s scalability benefits, I think it was the appropriate design decision, even if there was a greater learning curve than I had anticipated. It also has some nice built in analytics and testing infrastructure that would facilitate the app continued development. Plus, I love to learn new technologies, and learning how to create a serverless application was really interesting.&lt;/p&gt;
+
+&lt;h4 id=&quot;firebase-authentication&quot;&gt;Firebase Authentication&lt;/h4&gt;
+&lt;p&gt;Firebase has a really powerful authentication system. I primarily utilized OAuth for users to log in, with Facebook and Google currently accepted providers. There is also the email/password login set up for the demo user. In a future release, I would like to further integrate more OAuth providers and email/password sign up/login.&lt;/p&gt;
+
+&lt;h4 id=&quot;firestore-db&quot;&gt;Firestore DB&lt;/h4&gt;
+&lt;p&gt;aCasa uses the Firebase Firestore DB. It’s a fairly straightforward noSQL database.&lt;/p&gt;
+
+&lt;p&gt;I also used the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;geofirestore&lt;/code&gt; npm package for querying listings based on location. Firestore doesn’t support querying based on latitude and longitude (although it does support the Geopoint data type, just not any special querying based on it…maybe a feature for a future release). I needed to bring in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;geofirestore&lt;/code&gt; to act as a wrapper around my listings collection to make it easily queryable.&lt;/p&gt;
+
+&lt;p&gt;There is also a users collection which is linked to the auth system via a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uid&lt;/code&gt;, a unique identifier that the auth makes for all users.&lt;/p&gt;
+
+&lt;p&gt;To protect user data, I added database rules to only let certain users perform certain actions. For instance, only a certain user (identified by the auth system) can edit their own listings or profile. In the near future, I’d like to add additional rules to ensure that users are only added the correct data types, because as it stands now a user can corrupt their own data, even if not other users’.&lt;/p&gt;
+
+&lt;h6 id=&quot;example-rules-that-block-user-from-deleting-or-updating-account-that-isnt-their-own&quot;&gt;Example rules that block user from deleting or updating account that isn’t their own&lt;/h6&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nx&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;users&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;userId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;allow&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;allow&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;auth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;// only user can update their own information&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;allow&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;update&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;delete&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;auth&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;auth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;uid&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;userId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;firestore-media-storage&quot;&gt;Firestore Media Storage&lt;/h4&gt;
+&lt;p&gt;Site media, like user profile pictures and listing images are stored in Firebase’s Firestore. It’s a fairly straightforward media bucket system, similar to AWS S3 containers.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;aCasa was a lot of fun to make. It’s a product that I genuinely care about and want to exist in the world.&lt;/p&gt;
+
+&lt;p&gt;As I’ve lived abroad for the past 4 years, I know how challenging it can be to find medium-term housing. As of now, you’re basically stuck with either Airbnb, which is great but really more appropriate for short-term stays (less than 1 month) or scrolling through Facebook groups hoping you find something you like. I wanted to create a solution that would address this market gap, and I believe I’ve done a pretty decent job with aCasa.&lt;/p&gt;
+
+&lt;p&gt;With that being said, I do not view aCasa as a finished product. Here are a couple of additional features I’d like to implement:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Stripe Billing API&lt;/strong&gt;: It’s not a real company unless you can charge people money for it. PAyment would be based on either a monthly fee or # of active listings&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Email notifications&lt;/strong&gt;: Integrate with a 3rd-party email provider service like Sendgrid to send users programmatic and marketing emails.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Optimize Location-based search&lt;/strong&gt;: Right now much of the logic for location-based search occurs in the client. I would like to move that to a Firebase Cloud Function to make the solution more scalable as the application grows, and the number of responses per query increases. (In other words, the current solution works when there are 50 listings in NYC, but would break pretty quick if there are 50,000).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;More Database rules&lt;/strong&gt;: Right now the database is secured such that a user cannot corrupt another user’s data. They can however create some real chaos for their own account. This isn’t a real problem now, when there is no billing and the application is a prototype, but more rules need to be added to make this a marketable product.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Like any tech product, there is of course much, much more that I could add, but these are the main elements that I’d like to start with.&lt;/p&gt;</content><author><name>Ben Perlmutter</name></author><summary type="html">aCasa Created by Ben Perlmutter - Live Site Table of Contents Non-Technical Overview Technical Overview Frontend Backend Conclusion Non-Technical Overview aCasa is a platform for medium term furnished rentals. It’s designed for when you’re staying somewhere than a month, but you’re not ready (or able) to find a real lease. Listings contain relevant info for medium-term stays that’d be less relevant for a short stay like WiFi speed, if there are roommates, LGBTQ+ friendliness and more. And because you probably want to talk directly with the person renting the home if you’re staying for an extended period, aCasa provides you with the renter’s contact information. This contrasts with the managed booking process that other services like Airbnb provide.</summary></entry><entry><title type="html">An Overview of ben.perlmutter.io</title><link href="http://localhost:4000/2020/07/04/ben-perlmutter-io.html" rel="alternate" type="text/html" title="An Overview of ben.perlmutter.io " /><published>2020-07-04T00:00:00-05:00</published><updated>2020-07-04T00:00:00-05:00</updated><id>http://localhost:4000/2020/07/04/ben-perlmutter-io</id><content type="html" xml:base="http://localhost:4000/2020/07/04/ben-perlmutter-io.html">&lt;p&gt;My personal website - &lt;em&gt;April 2020 — ongoing&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;This website, &lt;a href=&quot;http://ben.perlmutter.io/&quot;&gt;ben.perlmutter.io&lt;/a&gt;, is a Jekyll site deployed onto Github Pages. It features information about me, the projects I’m working on, and my blog.&lt;/p&gt;
 
