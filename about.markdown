@@ -8,13 +8,15 @@ title: About
 
 I love programming, creating software, and am fascinated by everything having to do with digital entrepreneurship.
 
-I've just finished the [App Academy](https://appacademy.io/) online bootcamp, where I spent 6 months learning a whole bunch of technologies, programming fundamentals, and more. Prior to starting App Academy in February 2020, I had been studying programming independently using online resources like [The Odin Project](https://theodinproject.org).
+Currently, I'm working as a part-time **Full Stack Developer** for [Fullify](https://fullify.io){:target="_blank"} (webpage made by yours truly), a property manager marketing platform. I'm also doing some product marketing work for them, leveraging my previous background creating startup content. 
+
+I'm a graduate of the [App Academy](https://appacademy.io/) online bootcamp, where I spent 6 months learning a whole bunch of technologies, programming fundamentals, and more. Prior to starting App Academy in February 2020, I had been studying programming independently using online resources like [The Odin Project](https://theodinproject.org).
 
 Before I dove into learning software development full-time, I was already working in the world of tech. My previous position was as **Market Development Lead at Mavatar Technologies**, a small Silicon Valley e-commerce startup. As Market Development Lead, I worked in close collaboration with Mavatar's executive team on sales, marketing and content campaigns. 
 
 I also founded **PerlWrite**, a content creation organization, where I collaborated with startups to realize their content strategy in the form of website copy, eBooks, blog posts, email campaigns and more. 
 
-Prior to transitioning to the world of tech, I taught English in Seoul, South Korea and then Cuenca, Ecuador.
+Prior to transitioning to tech, I taught English in Seoul, South Korea and then Cuenca, Ecuador.
 
 Learn more about my experience on <a href="/assets/ben-perlmutter-resume.pdf" target="_blank" title="Ben Perlmutter resume">my resume</a>.
 
