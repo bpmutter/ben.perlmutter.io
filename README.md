@@ -13,7 +13,7 @@ The primary goal for this website, like any personal page, is to show off myself
   - [Conclusion & Next Steps](#conclusion--next-steps)
 
 ## Ben.perlmutter.io at a Glance
-As noted above, ben.perlmutter.io was built with the Jekyll static site generator. Jekyll provides the skeleton, and I heavily modified it with custom HTML, CSS, and Javascript to give the site its unique (and Bitmojiful) ascetic.
+As noted above, ben.perlmutter.io was built with the Jekyll static site generator. Jekyll provides the skeleton, and I heavily modified it with custom HTML, CSS, and Javascript to give the site its unique (and Bitmojiful) aesthetic.
 
 It was an intentional design decision to use a minimalistic Jekyll website and these core frontend technologies to build out the website, rather than using a more feature-heavy static site generator like Gatsby or Hugo with their robust theme libraries. I wanted to use a cleaner canvas—while also taking advantages of certain  Jekyll features like persistent navigation and an integrated blog—to create a vision that was really my own. 
 
@@ -64,7 +64,7 @@ Most of the styling was done with plain CSS, with a but of additional code in SA
 The design is fully responsive, making extensive use of `flexbox` to reduce the necessity of media queries. As of writing there are actually only approximately 30 lines of `@media` queries for over 400 lines of custom CSS! 
 
 ### Vanilla JS 
-ben.perlmutter.io only utilized Vanilla JS with 0 3rd-party libraries or frameworks. This was a somewhat philosophical decision, even if a library like JQuery could have made some things a bit easier. I wanted to make the site with only plain ol' Javascript to prove to myself (in addition to potential employers) that I am capable of using the language on its own to achieve interesting and properly-working functionality. 
+ben.perlmutter.io only utilized Vanilla JS with zero 3rd-party libraries or frameworks. This was a somewhat philosophical decision, even if a library like JQuery could have made some things a bit easier. I wanted to make the site with only plain ol' Javascript to prove to myself (in addition to potential employers) that I am capable of using the language on its own to achieve interesting and properly-working functionality. 
 
 A good chunk of the site's JS is devoted to the Bitmoji interactivity that you find scattered around the site. The most interesting Bitmoji functionality to make was the random Bitmoji generator that populates a new (and strange) Bitmoji on the header of secondary pages on load and when the user clicks on the Bitmoji. After significant iteration, I got the function down to just a couple of lines: 
 ```js
@@ -94,7 +94,7 @@ I have a couple of things that I want to do to improve the website SEO:
 * Certain other more server-side fixes, like serving certain optimized images for different devices would be a nice addition, but hard to the point of impossibility given the limits of the Jekyll platform. The only feasible path to cross-device image optimization (that I'm aware of) would be to use a remote hosting service for the images like an AWS S3 container, and use other AWS services for optimization. This is something that I would like to look into in the not-too-distant future, as I have recently been diving into the power and capabilities of serverless technologies like AWS. 
 
 ## Conclusion & Next Steps
-As of writing, I'm pretty happy with the overall ascetic, content, and functionally of ben.perlmutter.io. I believe it has achieved it's primary *raison d'etre*—presenting me as a competent and creative software developer. Hopefully potential employers agree with this assessment 😉.
+As of writing, I'm pretty happy with the overall aesthetic, content, and functionally of ben.perlmutter.io. I believe it has achieved it's primary *raison d'etre*—presenting me as a competent and creative software developer. Hopefully potential employers agree with this assessment 😉.
 
 But like with every software project, there is more that could be done. A couple of items that I'd like to continue improving for the site are: 
 * Improving site-wide SEO (discussed more above)
