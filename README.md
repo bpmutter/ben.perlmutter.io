@@ -1,6 +1,6 @@
 # ben.perlmutter.io
 ### NOTE TO READER
-This repo is **depreciated**. I have moved my personal website from this Jekyll build to a new one with Gatsby and Contenful hosted on Netlify. Visit the new project repo here: https://github.com/bpmutter/bpio-gatsby
+This repo is **depreciated**. I have moved my personal website from this Jekyll build to a new one with Gatsby and Contenful hosted on Netlify. Visit the new project repo here: https://github.com/bpmutter/bpio-ii
 
 ---
 ---
