@@ -1,5 +1,10 @@
 # ben.perlmutter.io
-My personal website - *April 2020 — ongoing*
+### NOTE TO READER
+This repo is **depreciated**. I have moved my personal website from this Jekyll build to a new one with Gatsby and Contenful hosted on Netlify. Visit the new project repo here: https://github.com/bpmutter/bpio-gatsby
+
+---
+---
+My personal website - *April 2020 — Aug 2020*
 
 (ben.perlmutter.io)[https://ben.perlmutter.io/] is a Jekyll site deployed onto Github Pages. It features information about me, the projects I'm working on, and my blog. 
 
